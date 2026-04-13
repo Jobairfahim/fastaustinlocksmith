@@ -1,0 +1,6063 @@
+body {
+	margin: 0
+}
+
+@font-face {
+	font-family: Oswald-Bold;
+	src: url(../fonts/Oswald-Bold.eot);
+	src: url(../fonts/Oswald-Bold%EF%B9%96.eot#iefix) format('embedded-opentype'), url(../fonts/Oswald-Bold.woff2) format('woff2'), url(../fonts/Oswald-Bold.woff) format('woff'), url(../fonts/Oswald-Bold.ttf) format('truetype'), url(../fonts/Oswald-Bold.svg#Oswald-Bold) format('svg');
+	font-display: swap
+}
+
+@font-face {
+	font-family: Oswald-Regular;
+	src: url(../fonts/Oswald-Regular.eot) format("eot");
+	src: url(../fonts/Oswald-Regular%EF%B9%96.eot#iefix) format('embedded-opentype'), url(../fonts/Oswald-Regular.woff2) format("woff2"), url(../fonts/Oswald-Regular.woff) format("woff"), url(../fonts/Oswald-Regular.ttf) format("ttf"), url(https://www.fastaustinlocksmiths.com/assets/css/fonts/Oswald-Regular.otf) format("otf");
+	font-display: swap
+}
+
+@font-face {
+	font-family: Oswald-Light;
+	src: url(https://www.fastaustinlocksmiths.com/assets/css/fonts/Oswald-Light..eot) format("eot"), url(../fonts/Oswald-Light.svg) format("svg"), url(../fonts/Oswald-Light.woff2) format("woff2"), url(../fonts/Oswald-Light.woff) format("woff"), url(../fonts/Oswald-Light.ttf) format("ttf"), url(https://www.fastaustinlocksmiths.com/assets/css/fonts/Oswald-Light.otf) format("otf")
+}
+
+.banner-locksmith-single:nth-child(1) .banner-locksmith-image img {
+	transform: translate(0, 500px);
+	transition: all .6s ease-in-out
+}
+
+.banner-locksmith-single:nth-child(2) .banner-locksmith-image img {
+	transform: translate(0, 500px);
+	transition: all .6s ease-in-out
+}
+
+.banner-locksmith-single:nth-child(3) .banner-locksmith-image img {
+	transform: translate(0, 500px);
+	transition: all .6s ease-in-out
+}
+
+.banner-locksmith-single:nth-child(4) .banner-locksmith-image img {
+	transform: translate(0, 500px);
+	transition: all .6s ease-in-out
+}
+
+.banner-locksmith-single.slick-slide.slick-current.slick-active .banner-locksmith-image img {
+	transform: translate(0, 0)
+}
+
+.fa-chevron-right:before {
+	content: "\f054";
+	font: normal normal normal 14px/1 FontAwesome;
+	padding: 8px;
+	position: relative;
+	top: 0
+}
+
+.fa-chevron-left:before {
+	font: normal normal normal 14px/1 FontAwesome
+}
+
+body {
+	overflow-x: hidden
+}
+
+i {
+	font: normal normal normal 14px/1 FontAwesome
+}
+
+a:focus,
+a:hover {
+	color: #000;
+	text-decoration: none;
+	outline: 0
+}
+
+a {
+	color: #000;
+	font-family: Oswald-Regular
+}
+
+a:active,
+a:focus {
+	outline: 0;
+	border: none;
+	-moz-outline-style: none
+}
+
+img {
+	max-width: 100%
+}
+
+.row {
+	margin: 0;
+	padding: 0
+}
+
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9 {
+	padding: 0
+}
+
+ul {
+	list-style-type: none
+}
+
+li {
+	list-style-type: disc;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #000;
+	font-weight: 300;
+	font-family: Oswald-Regular
+}
+
+p strong {
+	font-size: 20px;
+	font-family: Oswald-Regular
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, .btitle {
+	font-family: Oswald-Bold
+}
+
+.no-margin {
+	margin: 0
+}
+
+p,
+span {
+	font-family: Oswald-Light
+}
+
+.container-fluid {
+	padding: 0
+}
+
+img {
+	max-width: 100%
+}
+
+.container {
+	padding: 0;
+	max-width: 1260px;
+	margin: 0 auto;
+	width: auto
+}
+
+#button {
+	display: inline-block;
+	background-color: #caa200;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	border-radius: 4px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	transition: background-color .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000
+}
+
+#button.show {
+	opacity: 1;
+	visibility: visible
+}
+
+#button::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2em;
+	line-height: 50px;
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 0;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out
+}
+
+#button:hover::after {
+	top: -10px
+}
+
+#button:active {
+	background-color: #a91f24
+}
+
+#button:hover {
+	cursor: pointer;
+	background-color: #000
+}
+
+.sitemap-data {
+	margin-top: 4em
+}
+
+a h4:hover {
+	opacity: .8
+}
+
+.svg {
+	position: absolute;
+	width: 0;
+	height: 0
+}
+
+.slick-initialized .slick-slide {
+	outline: unset
+}
+
+ul.megamenu {
+	padding: 0;
+	box-shadow: 3px 3px 19px 5px #00000066;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+	background-color: #fff;
+	left: 0;
+	right: 0;
+	top: 100%;
+	width: 100%;
+	z-index: 999;
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	transform: translate(0, 20px)
+}
+
+.header-nav nav>ul>li:hover ul.megamenu {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(0, 0)
+}
+
+.header-nav nav ul.megamenu {
+	width: 100%;
+	margin-bottom: 0;
+	color: #000;
+	box-shadow: none;
+	padding-left: 0;
+	border-top: 5px solid #941305;
+	border-bottom: 5px solid #941305;
+	padding: 1em 1em;
+	float: left
+}
+
+.header-nav nav>ul>li ul.megamenu li {
+	width: 24%;
+	padding: 10px 0;
+	border-bottom: 1px solid #000;
+	float: left;
+	margin: 0 5px
+}
+
+.header-nav nav>ul>li ul.megamenu li a {
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 20px;
+	line-height: 16px;
+	color: #000;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.header-nav nav>ul>li ul.megamenu li a:hover {
+	color: #941305
+}
+
+.abt-emergency img {
+	animation: shake .8s;
+	animation-iteration-count: infinite
+}
+
+ul.megamenu.megamenu1 {
+	left: 0
+}
+
+.header-nav nav ul li ul li:after {
+	content: unset
+}
+
+.header-nav nav {
+	width: 100%;
+	font-size: 16px
+}
+
+.mobile-top-head {
+	display: none
+}
+
+.svg {
+	position: absolute;
+	width: 0;
+	height: 0
+}
+
+.header-nav nav>ul {
+	position: relative;
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 0;
+	margin: 0;
+	width: 100%
+}
+
+.header-nav nav ul li {
+	color: #fff;
+	list-style: none;
+	transition: .5s;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 0
+}
+
+.header-nav nav>ul>li>a {
+	padding: 0 15px;
+	line-height: 25px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	position: relative;
+	letter-spacing: 0;
+	font-size: 20px;
+	line-height: 44px;
+	color: #393939;
+	font-weight: 400
+}
+
+.header-nav nav>ul>li>a:nth-child(last) {
+	border-right: 0
+}
+
+.header-nav nav>ul>li a:hover {
+	color: #941305;
+	transition: .5s
+}
+
+.header-nav li.active a {
+	color: #941305
+}
+
+.header-nav nav>ul>li>a:hover::before {
+	width: 100%
+}
+
+.header-nav nav ul li:last-child::after {
+	content: none
+}
+
+.header-nav nav>ul>li>a:before {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	background-color: #941305;
+	transition: .5s;
+	-webkit-transition: .5s
+}
+
+.header-nav nav>ul>li>a:after {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	right: 9px;
+	background-color: #941305;
+	transition: .5s;
+	-webkit-transition: .5s
+}
+
+.header-nav nav>ul>li>a:hover::before {
+	width: 50%
+}
+
+.header-nav nav>ul>li>a:hover::after {
+	width: 50%
+}
+
+.header-locksmith-logo {
+	float: left;
+	width: 30%;
+	text-align: center
+}
+
+.header-lock-call-section {
+	background-color: #941305;
+	float: right;
+	width: 70%
+}
+
+.header-call-locksmith {
+	text-align: center;
+	padding: 15px 0;
+	border-right: 2px solid #bababa
+}
+
+.header-call-locksmith a span {
+	display: inline-block;
+	margin-right: 15px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.header-call-locksmith a span img {
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.header-call-locksmith a:hover p {
+	color: #747d90
+}
+
+.header-call-locksmith a p {
+	display: inline-block;
+	margin: 0;
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.header-emergeny-locksmith {
+	text-align: center;
+	padding: 15px 0
+}
+
+.header-emergeny-locksmith span {
+	display: inline-block;
+	margin-right: 20px
+}
+
+.header-emergeny-locksmith-inner {
+	display: inline-block;
+	vertical-align: middle
+}
+
+.header-emergeny-locksmith-inner h5 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+	-webkit-animation: flickerAnimation 1s infinite;
+	-moz-animation: flickerAnimation 1s infinite;
+	-o-animation: flickerAnimation 1s infinite;
+	animation: flickerAnimation 1s infinite
+}
+
+.header-emergeny-locksmith-inner h6 {
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.header-locksmith-austin {
+	float: left;
+	width: 100%
+}
+
+.header-locksmith-logo-inner {
+	padding-top: 10px
+}
+
+.header-locksmith-cov {
+	background-color: #ffff;
+	position: relative;
+	z-index: 9
+}
+
+.blog-banner-hole {
+	width: 100%;
+	float: left;
+	margin-top: -2em;
+	z-index: -1;
+	position: relative
+}
+
+.footer-locksmith {
+	float: left;
+	width: 100%;
+	margin: 1em 0 0 0;
+	padding: 1em 0 0 0
+}
+
+.footer-locksmith-hole {
+	background-image: url(../images/home/footer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 655px;
+	padding: 12em 0 0 0
+}
+
+.footer-locksmith-logo-sec {
+	background-color: #ffff;
+	padding: 5em 2em;
+	-webkit-clip-path: url(#white-clip);
+	clip-path: url(#white-clip)
+}
+
+.footer-locksmith-logo-sec-inner {
+	text-align: center;
+	margin-bottom: 20px
+}
+
+.social-media {
+	text-align: center
+}
+
+.social-media a {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	text-align: center;
+	background-color: #951305;
+	border-radius: 50%;
+	padding-top: 14px;
+	margin: 0 15px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.social-media a:hover i {
+	color: #951305
+}
+
+.social-media a:hover {
+	background-color: #747c8f
+}
+
+.social-media i {
+	font-size: 30px;
+	color: #ffff;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.footer-locksmith-logo-sec p {
+	font-size: 20px;
+	line-height: 32px;
+	color: #030303;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 25px
+}
+
+.footer-locksmith-content {
+	float: right;
+	width: 63%
+}
+
+.footer-links h5 {
+	font-size: 24px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+.footer-links ul {
+	padding: 0
+}
+
+.footer-links ul li {
+	list-style-type: none
+}
+
+.footer-links ul li:hover a {
+	color: #747c8f
+}
+
+.footer-links ul li a {
+	font-size: 18px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 400;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.footer-call-section {
+	float: right;
+	width: 46%
+}
+
+.footer-links {
+	float: left;
+	width: 27%
+}
+
+.footer-call-locksmith span {
+	width: 55px;
+	height: 55px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center
+}
+
+.footer-call-locksmith span i {
+	font-size: 32px;
+	padding-top: 12px;
+	color: #747d90
+}
+
+.footer-call-locksmith span {
+	width: 55px;
+	height: 55px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-right: 20px
+}
+
+.call-footer-lock {
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	float: left
+}
+
+.call-footer-lock h6 {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	margin: 0
+}
+
+.call-footer-lock p {
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	margin: 0;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.call-footer-lock p:hover {
+	color: #747c8f
+}
+
+.footer-call-address span {
+	width: 55px;
+	height: 55px;
+	background-color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	float: left;
+	margin-right: 20px
+}
+
+.footer-call-address span i {
+	font-size: 32px;
+	padding-top: 12px;
+	color: #747d90
+}
+
+.footer-call-locksmith {
+	margin-bottom: 2em
+}
+
+.footer-iboost-lock {
+	float: right
+}
+
+.banner-locksmith {
+	float: left;
+	width: 100%;
+	margin-top: -2em;
+	z-index: -1;
+	position: relative
+}
+
+.banner-locksmith-image img {
+	height: 600px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center
+}
+
+.banner-locksmith-content {
+	position: absolute;
+	bottom: 0;
+	height: auto;
+	width: 60%;
+	background-color: #941306ab;
+	-webkit-clip-path: polygon(76% 0, 100% 38%, 79% 100%, 0 100%, 0 30%);
+	clip-path: polygon(76% 0, 100% 38%, 79% 100%, 0 100%, 0 30%);
+	padding-top: 15px
+}
+
+.banner-locksmith-content-inner {
+	background-color: #000000b5;
+	-webkit-clip-path: polygon(76% 0, 100% 38%, 79% 100%, 0 100%, 0 30%);
+	clip-path: polygon(76% 0, 100% 38%, 79% 100%, 0 100%, 0 30%);
+	padding: 80px 80px 50px 49px
+}
+
+.banner-locksmith-content-inner h4 {
+	font-size: 70px;
+	line-height: 76px;
+	color: #fff;
+	font-weight: 400;
+	font-family: Oswald-Regular;
+	margin-bottom: 25px
+}
+
+.banner-locksmith-content-inner h1 {
+	font-size: 70px;
+	line-height: 76px;
+	color: #fff;
+	font-weight: 400;
+	font-family: Oswald-Regular;
+	margin-bottom: 25px
+}
+
+.banner-locksmith-content-inner h2 {
+	font-size: 70px;
+	line-height: 76px;
+	color: #fff;
+	font-weight: 400;
+	font-family: Oswald-Regular;
+	margin-bottom: 25px
+}
+
+.banner-locksmith-content-inner p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 300
+}
+
+.service-locksmith {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0
+}
+
+.service-locksmith-hole {
+	background-image: url(../images/home/service.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	padding: 2em 0 3em 0
+}
+
+.service-locksmith-hole h4 {
+	font-size: 60px;
+	line-height: 62px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 1em;
+	text-align: center;
+	font-family: Oswald-Bold
+}
+
+.service-locksmith-hme-single-inner img {
+	height: 400px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center
+}
+
+.service-locksmith-hme-single-inner {
+	margin: 0 10px;
+	margin-bottom: 2em
+}
+
+.service-locksmith-hme-single h5 {
+	font-size: 42px;
+	line-height: 45px;
+	color: #941305;
+	font-weight: 400;
+	text-align: center;
+	font-family: Oswald-Regular
+}
+
+.voluptatem {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 5em 0;
+	position: relative
+}
+
+.voluptatem-image {
+	margin-right: 42px;
+	width: 510px
+}
+
+.voluptatem-image-inner img {
+	height: 510px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+	width: 100%
+}
+
+.voluptatem-hole h2 {
+	font-size: 32px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 600;
+	margin-bottom: .5em
+}
+
+.voluptatem-hole p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #222;
+	font-weight: 400
+}
+
+.voluptatem-back img {
+	height: 680px;
+	object-fit: cover;
+	object-position: center
+}
+
+.voluptatem-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	-webkit-clip-path: polygon(0 0, 55% 0, 55% 31%, 100% 100%, 28% 100%, 0 70%);
+	clip-path: polygon(0 0, 55% 0, 55% 31%, 100% 100%, 28% 100%, 0 70%)
+}
+
+.voluptatem-back:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #94130685
+}
+
+.about-locksmith {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.about-locksmith-image-inner img {
+	width: 100%;
+	height: 405px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%
+}
+
+.about-locksmith-image-outer {
+	width: 405px;
+	margin: 0 auto;
+	background-color: #941305;
+	padding-right: 15px;
+	border-radius: 50%;
+	padding-top: 10px
+}
+
+.about-locksmith-hole h1 {
+	font-size: 60px;
+	line-height: 62px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 25px
+}
+
+.about-locksmith-hole h2 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #747d90;
+	font-weight: 600;
+	margin-bottom: 25px
+}
+
+.about-locksmith-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #030303;
+	font-weight: 300
+}
+
+.about-locksmith-hole a p {
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 42px;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	float: left;
+	margin: 0;
+	width: 80%;
+	padding: 10px 0;
+	background-color: #931305;
+	-webkit-clip-path: polygon(100% 0, 87% 50%, 100% 100%, 0 100%, 0 50%, 0 0);
+	clip-path: polygon(100% 0, 87% 50%, 100% 100%, 0 100%, 0 50%, 0 0);
+	text-align: center;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.about-locksmith-hole a:hover p {
+	background-color: #747d90
+}
+
+.about-locksmith-hole a {
+	display: block;
+	background-color: #747d90;
+	width: 200px;
+	text-align: center;
+	border-radius: 50px;
+	float: right;
+	overflow: hidden
+}
+
+.about-locksmith-hole a span {
+	display: inline-block;
+	height: 62px;
+	float: right;
+	vertical-align: middle;
+	display: inline-block;
+	padding-top: 23px;
+	width: 20%;
+	font-size: 7px;
+	color: #fff
+}
+
+.tempor-locksmith {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.tempor-locksmith-hole {
+	padding-right: 49px
+}
+
+.tempor-locksmith-image {
+	float: left;
+	width: 50%;
+	margin-right: 40px;
+	background-color: #747d90;
+	-webkit-clip-path: polygon(0 0, 100% 1%, 78% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 1%, 78% 100%, 0 100%);
+	padding-right: 45px
+}
+
+.tempor-locksmith-image-inner img {
+	height: 570px;
+	width: 100%;
+	-webkit-clip-path: polygon(0 0, 100% 1%, 78% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 1%, 78% 100%, 0 100%);
+	object-fit: cover;
+	object-position: center
+}
+
+.tempor-locksmith-hole h2 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 600;
+	margin-bottom: 20px;
+	padding-top: 2em
+}
+
+.tempor-locksmith-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #222;
+	font-weight: 400;
+	margin-bottom: 20px
+}
+
+.call-tempor {
+	width: 350px;
+	float: left;
+	background-color: #941306;
+	text-align: center;
+	padding: 2em 0;
+	-webkit-clip-path: url(#temp-clip);
+	clip-path: url(#temp-clip)
+}
+
+.call-tempor-content-out {
+	width: 360px;
+	float: left;
+	background-color: #747d90;
+	text-align: center;
+	padding: 0 0 .5em 0;
+	-webkit-clip-path: url(#temp-clip);
+	clip-path: url(#temp-clip)
+}
+
+.call-tempor span {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 50%;
+	font-size: 33px;
+	padding-top: 5px;
+	margin-right: 20px;
+	margin-top: 10px
+}
+
+.call-tempor-content h6 {
+	font-size: 20px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0;
+	font-family: Oswald-Regular
+}
+
+.call-tempor-content p {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.call-tempor-content p a {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.call-tempor-content {
+	display: inline-block;
+	vertical-align: top
+}
+
+.tempor-locksmith-image-outer {
+	background-color: #941306;
+	clip-path: polygon(0 0, 100% 1%, 78% 100%, 0 100%);
+	padding-right: 25px
+}
+
+.abt-call-now {
+	width: 250px;
+	height: 140px;
+	background-color: #747d90;
+	clip-path: polygon(0 0, 100% 0, 79% 100%, 0 100%);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: rotate(-22deg);
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: -1
+}
+
+.abt-call-now p {
+	font-size: 48px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 1em
+}
+
+.abt-emergency {
+	width: 200px;
+	height: 130px;
+	background-color: #941305;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(18% 0, 100% 0, 100% 100%, 0 100%);
+	transform: rotate(-30deg);
+	position: absolute;
+	bottom: 24px;
+	left: 17px;
+	z-index: -1
+}
+
+.arrow-tempor i {
+	font-size: 50px;
+	text-align: center;
+	color: #fff
+}
+
+.arrow-tempor {
+	position: absolute;
+	width: 115px;
+	height: 160px;
+	background-color: #747d90;
+	display: block;
+	top: 28%;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 56px;
+	left: 554px
+}
+
+.customer-hmereviews-hole {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.customer-hmereviews-hole-inner h4 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #941305;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 1em
+}
+
+.customer-hmereview-megan-single-inner {
+	margin: 0 15px;
+	padding: 4em 3em 0 3em;
+	height: 375px;
+	background-color: #931305;
+	-webkit-clip-path: url(#customer-clip);
+	clip-path: url(#customer-clip);
+	position: relative
+}
+
+span.g-image {
+	position: absolute;
+	right: 7em;
+	left: 0;
+	margin: 0 auto;
+	float: none;
+	display: inline-block;
+	text-align: right
+}
+
+.star-rating.review-customer {
+	float: right
+}
+
+span.fa.fa-star.checked {
+	font-size: 18px;
+	color: #ffc000
+}
+
+span.fa.fa-star {
+	font-size: 18px;
+	color: #ffff
+}
+
+.customer-hmereview-megan-single-inner h5 {
+	font-size: 22px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.customer-hmereview-megan-single-inner p {
+	font-size: 18px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 400
+}
+
+.customer-hmereview-megan-single {
+	position: relative;
+	z-index: 99999
+}
+
+.customer-hmereview-megan-single:before {
+	content: '';
+	position: absolute;
+	width: 95%;
+	height: 100%;
+	background-color: #fff;
+	top: -55px;
+	left: 0;
+	-webkit-clip-path: url(#customer-clip);
+	clip-path: url(#customer-clip);
+	margin: 0 auto;
+	right: 0
+}
+
+.customer-hmereview-megan-single:after {
+	content: '';
+	position: absolute;
+	width: 97%;
+	height: 100%;
+	background-color: #000;
+	top: -60px;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	-webkit-clip-path: url(#customer-clip);
+	clip-path: url(#customer-clip);
+	padding: 25px 0 0 0;
+	margin: 0 auto
+}
+
+.customer-hmereviews-megan {
+	margin: 50px 0 0 0
+}
+
+.double-quotes {
+	position: absolute;
+	top: -40px;
+	right: 70px
+}
+
+.customer-hmereviews-megan .slick-list.draggable {
+	padding: 65px 0 0 0
+}
+
+.customer-hmereview-megan-single.slick-active+.slick-active .customer-hmereview-megan-single-inner {
+	background-color: #737d8f
+}
+
+.review-viemore.about-locksmith-hole a {
+	text-align: center;
+	float: none;
+	margin: 0 auto
+}
+
+.review-viemore.about-locksmith-hole {
+	margin: 2em 0
+}
+
+.blogs-section-hole h4 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 1em;
+	text-align: center
+}
+
+.blogs-section-hole-inner .slick-list.draggable {
+	padding: 3em 0 0 0
+}
+
+.blogs-section-single-inner {
+	margin: 0 15px
+}
+
+.blogs-section-single-image img {
+	height: 385px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%
+}
+
+.blog-hme-title {
+	background-color: #931305;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 3em;
+	-webkit-clip-path: url(#temp-clip);
+	clip-path: url(#temp-clip);
+	margin-top: -7em
+}
+
+.blog-hme-title h5 {
+	font-size: 22px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	font-family: Oswald-Regular;
+	margin: 0
+}
+
+.blog-readmore a p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.blog-readmore a {
+	width: 200px;
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 auto;
+	-webkit-clip-path: url(#blog-read-clip);
+	clip-path: url(#blog-read-clip);
+	background-color: #747d90
+}
+
+.blogs-section-single:before {
+	content: '';
+	position: absolute;
+	width: 95%;
+	height: 430px;
+	background-color: #931305ba;
+	z-index: -1;
+	border-radius: 50%;
+	top: -20px;
+	left: 5px
+}
+
+.blogs-section-single:after {
+	content: '';
+	position: absolute;
+	width: 85%;
+	height: 350px;
+	background-color: #747d90ad;
+	top: -32px;
+	right: 10px;
+	border-radius: 50%;
+	z-index: -2
+}
+
+.blogs-section {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0;
+	position: relative
+}
+
+.blog-viemore.about-locksmith-hole {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 1em 0
+}
+
+.blog-viemore.about-locksmith-hole a {
+	float: none;
+	margin: 0 auto
+}
+
+.blogs-section:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 617px;
+	top: 0;
+	background-image: url(../images/home/blog-banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.blogs-section-single {
+	position: relative;
+	z-index: 999
+}
+
+.whychoose-section {
+	float: left;
+	width: 100%;
+	margin: 3em 0;
+	padding: 2em 0
+}
+
+.whychoose-section-hole h4 {
+	font-size: 60px;
+	line-height: 65px;
+	color: #941305;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 1em
+}
+
+.whychoose-sec-image-inner img {
+	height: 45vw;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	z-index: 9999
+}
+
+.whychoose-sec-image-inner {
+	-webkit-clip-path: url(#whychoose-clip);
+	clip-path: url(#whychoose-clip);
+	margin: 30px 0 25px 40px;
+	margin-left: 0
+}
+
+.whychoose-sec-image-outer {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: -1;
+	-webkit-filter: blur(5px);
+	filter: blur(5px);
+	-webkit-clip-path: url(#whychoose-clip);
+	clip-path: url(#whychoose-clip)
+}
+
+.whychoose-sec-image-outer {
+	display: none
+}
+
+.whychoose-sec-image-outer img {
+	height: 49vw;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	z-index: 9999
+}
+
+.whychoose-sec-content-hole {
+	padding-left: 49px;
+	margin-top: 4em
+}
+
+.whychoose-sec-icon {
+	width: 80px;
+	height: 80px;
+	background-color: #931305;
+	text-align: center;
+	border-radius: 50%;
+	padding-top: 15px;
+	display: inline-block;
+	box-shadow: -4.994px 9.801px 3.5px rgb(157 157 157 / 75%);
+	position: relative;
+	float: left
+}
+
+.whychoose-sec-name {
+	width: 230px;
+	height: 170px;
+	text-align: center;
+	display: inline-block;
+	background-image: url(../images/home/hexa-righ.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0 20px;
+	margin-left: -3em;
+	z-index: -1;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.whychoose-sec-content {
+	background-color: #e6e6e6;
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+	height: auto;
+	display: inline-block;
+	width: 395px;
+	padding: 20px 43px 25px 45px;
+	float: left;
+	margin-top: 2em;
+	margin-left: -3em;
+	z-index: -1;
+	position: relative
+}
+
+.whychoose-sec-content p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #030303;
+	font-weight: 400;
+	margin: 0
+}
+
+.whychoose-sec-name h5 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 400;
+	margin: 0
+}
+
+.whychoose-sec-hole-mark {
+	margin-bottom: 3em
+}
+
+.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-icon {
+	float: right
+}
+
+.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-name {
+	float: right;
+	margin-right: -3em;
+	margin-left: 0;
+	background-image: url(../images/home/hexa-left.png)
+}
+
+.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+	margin-right: -3em;
+	margin-left: 0;
+	float: right
+}
+
+.about-locksmith-image {
+	margin-top: 4em
+}
+
+.whychoose-sec-image {
+	width: 48%;
+	float: right
+}
+
+.whychoose-sec-content-hole .whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 15% 100%);
+	padding-right: 15px;
+	padding-left: 65px;
+	position: relative;
+	left: 3em
+}
+
+.blog-banner-inner-image img {
+	height: 515px;
+	object-fit: cover;
+	object-position: top;
+	width: 100%
+}
+
+.blog-section-own {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 3em 0
+}
+
+.blogs-section-single.blog-own {
+	margin-bottom: 6em
+}
+
+.about-locksmith-hole.blog-more {
+	float: left;
+	width: 100%;
+	text-align: center
+}
+
+.about-locksmith-hole.blog-more a {
+	float: none;
+	margin: 0 auto
+}
+
+.blogs-section-single.blog-own {
+	display: none
+}
+
+.reviews-section-own {
+	float: left;
+	width: 100%;
+	margin: 4em 0;
+	padding: 4em 0
+}
+
+.customer-hmereview-megan-single.own-revi-pa {
+	margin-bottom: 7em;
+	display: none
+}
+
+.customer-hmereview-megan-single.own-revi-pa:nth-child(even) .customer-hmereview-megan-single-inner {
+	background-color: #747d90
+}
+
+.about-locksmith-hole.review-more a {
+	margin: 0 auto;
+	float: none
+}
+
+.blog-banner-hole.blog-detail .blog-banner-inner-image img {
+	height: 205px;
+	object-position: top
+}
+
+.banner-blog.detail-page {
+	margin-top: 0;
+	float: left;
+	width: 100%
+}
+
+.blog-detail-hole {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.blog-detail-sidebar {
+	float: right;
+	margin-left: 20px
+}
+
+.blog-detail-sidebar-inner {
+	margin: 0 10px
+}
+
+.blog-detail-sec h4, .btitle {
+	font-size: 40px;
+	line-height: 46px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 20px
+}
+
+.blog-detail-sec h1 {
+	color: #737d8f;
+	font-size: 30px;
+	line-height: 46px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 20px
+}
+.blog-detail-sec ul li {
+    font-family: Oswald-Light;
+    list-style-type: none;
+    position: relative;
+    padding-left: 3em;
+    margin: 15px 0 15px;
+}
+.blog-detail-sec ul {
+    padding-left: 0;
+    margin: 2em 0 2em;
+}
+
+.blog-detail-sec ul li:before {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 35px;
+    background-image: url(../images/service-detail/tick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+	top: -2px;
+}
+.blog-detail-side ul li:before {
+    display: none;
+}
+.blog-detail-side ul {
+    margin:0;
+}
+.blog-detail-side ul li {
+    padding-left: 0;
+}
+.blog-detail-sec h2 {
+	color: #bd1628
+}
+
+.blog-detail-sec h5 {
+	font-size: 26px
+}
+
+.blog-detail-image {
+	float: left;
+	width: 65%;
+	margin-bottom: 20px
+}
+
+.blog-detail-image {
+	float: left;
+	width: 65%
+}
+
+.blog-detail-image-inner img {
+	height: 29vw;
+	width: 100%;
+	object-fit: cover;
+	object-position: center
+}
+
+.blog-date p {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400
+}
+
+.blog-date span {
+	display: inline-block;
+	margin-right: 15px
+}
+
+.blog-date span img {
+	object-fit: cover;
+	object-position: center;
+	width: 30px;
+	height: 24px
+}
+
+.blog-detail-sec p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 15px;
+	font-family: Oswald-Light
+}
+
+.blog-detail-side h6:after {
+	content: '';
+	position: absolute;
+	width: 35px;
+	height: 3px;
+	background-color: #bd1628;
+	display: block;
+	margin: 3px 0
+}
+
+.blog-detail-side h6 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400;
+	margin-bottom: 25px;
+	position: relative
+}
+
+.blog-detail-side.recent ul {
+	padding: 0
+}
+
+.blog-detail-side.recent ul li {
+	list-style-type: none;
+	margin-bottom: 20px
+}
+
+.blog-detail-side.recent ul li a span {
+	width: 115px;
+	height: 90px;
+	display: inline-block
+}
+
+.blog-detail-side.recent ul li a span img {
+	height: 100%;
+	object-position: center;
+	object-fit: cover
+}
+
+.blog-detail-side.recent ul li a p {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400;
+	width: 65%;
+	letter-spacing: 0;
+	margin: 0;
+	margin-left: 15px
+}
+
+.blog-detail-side.services ul {
+	padding: 0
+}
+
+.blog-detail-side.services ul li {
+	list-style-type: none;
+	margin-bottom: 20px
+}
+
+.blog-detail-side.services ul li a span {
+	width: 115px;
+	height: 90px;
+	display: inline-block;
+	background-color: #eee;
+	text-align: center;
+	padding-top: 15px
+}
+
+.blog-detail-side.services ul li a p {
+	font-size: 30px;
+	line-height: 32px;
+	color: #bd1628;
+	font-weight: 600;
+	display: inline-block;
+	margin-left: 25px;
+	font-family: Oswald-Light
+}
+
+.blog-detail-side.tags a {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	background-color: #747d90;
+	padding: 0 15px;
+	border-radius: 50px;
+	margin-bottom: 15px
+}
+
+.blog-date {
+	float: left;
+	width: 65%
+}
+
+.blog-detail.pagination {
+	text-align: center
+}
+
+.blog-detail.pagination a {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	display: inline-block;
+	background-color: #bd1628;
+	padding: 0 25px;
+	border-radius: 50px;
+	margin: 0 20px
+}
+
+.blog-detail.pagination a {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	display: inline-block;
+	background-color: #bd1628;
+	padding: 0 25px;
+	border-radius: 50px;
+	margin: 0 20px
+}
+
+.contact-section-fast {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0;
+	position: relative
+}
+
+.contact-section-fast-title {
+	background-color: #bd1628;
+	padding: 25px 0
+}
+
+.contact-section-fast-title h4 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	margin: 0
+}
+
+.contact-section-fast-title p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	margin: 15px 0
+}
+
+.contact-section-fast-form-inner {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 85%;
+	overflow: hidden
+}
+
+.emergency_text {
+	text-align: center;
+	margin-bottom: 1em
+}
+
+.emergency_text p {
+	font-size: 20px
+}
+
+.contact-section-fast-form-main {
+	float: left;
+	background-color: #ebebeb;
+	padding: 2em 7em 5em 7em
+}
+
+.contact-section-fast-form-main p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	margin: 0;
+	margin: 15px 0
+}
+
+.form-group p {
+	font-size: 18px;
+	line-height: 36px;
+	color: #000;
+	font-weight: 500;
+	text-align: left;
+	margin: 0;
+	text-transform: uppercase
+}
+
+.form-control {
+	height: 52px;
+	box-shadow: 3.657px 3.41px 2.5px rgb(0 0 0 / 10%);
+	border-radius: unset;
+	outline: unset;
+	border: unset
+}
+
+.form-group.email,
+.form-group.name {
+	float: left;
+	width: 49%
+}
+
+.form-group.lastname,
+.form-group.phone-text {
+	float: right;
+	width: 49%
+}
+
+.text-address p {
+	float: left
+}
+
+textarea#comment {
+	resize: unset
+}
+
+.text-address {
+	margin-bottom: 3em
+}
+
+button.send-btn {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	background-color: #bd1628;
+	outline: unset;
+	border: unset;
+	font-family: Oswald-Regular;
+	width: 250px;
+	padding: 10px 0;
+	margin: 0 auto;
+	float: none;
+	text-transform: uppercase
+}
+
+.but-snd {
+	text-align: center
+}
+
+.contact-content-fast {
+	margin: 3em 0
+}
+
+.contact-content-fast p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400
+}
+
+.fast-austin-map .mapouter {
+	height: 610px
+}
+
+.fast-austin-map .gmap_canvas {
+	height: 610px
+}
+
+.contact-call-austin {
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	background-image: url(../images/contact/emergency.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	z-index: 99;
+	-webkit-clip-path: url(#contact-call);
+	clip-path: url(#contact-call);
+	width: 35%;
+	padding-left: 0
+}
+
+.call-icon-section-austin span {
+	display: inline-block;
+	margin-right: 15px
+}
+
+.call-icon-section-austin p {
+	font-size: 40px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.contact-call-austin:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #941305bd;
+	z-index: -1
+}
+
+.call-icon-section-austin {
+	padding-left: 49px;
+	padding-top: 5em;
+	margin-bottom: 3em
+}
+
+.contact-call-austin a p {
+	font-size: 50px;
+	letter-spacing: 1px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 700
+}
+
+.contact-call-austin a {
+	padding-left: 49px;
+	display: block
+}
+
+.service-areas-sec {
+	float: left;
+	width: 100%;
+	margin: 0 0 2em 0;
+	padding: 0 0 2em 0;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	z-index: 9;
+	margin-bottom: -11em
+}
+
+.service-areas-sec-hole .mapouter {
+	height: 850px
+}
+
+.service-areas-sec-hole .gmap_canvas {
+	height: 850px
+}
+
+.service-area-location {
+	position: absolute;
+	z-index: 999;
+	float: left;
+	width: 100%;
+	padding: 80px 49px 0 49px
+}
+
+.service-area-location ul {
+	padding: 0;
+	float: left;
+	width: 100%
+}
+
+.service-area-location ul li {
+	list-style-type: none;
+	text-align: left;
+	float: left;
+	width: 50%;
+	display: block;
+	margin-bottom: 20px
+}
+
+.service-area-location ul li:nth-child(even) {
+	text-align: right
+}
+
+.service-area-location ul li a {
+	display: inline-block;
+	width: 250px;
+	background-color: #bd1628;
+	padding: 0 0;
+	border-radius: 50px;
+	font-size: 25px;
+	line-height: 46px;
+	color: #fff;
+	font-weight: 500;
+	text-align: center;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out
+}
+
+.service-area-location ul li a:hover {
+	background-color: #000
+}
+
+.why-we-use {
+	float: left;
+	width: 100%
+}
+
+.why-we-use-image {
+	float: right;
+	width: 40%;
+	margin-right: -3em;
+	margin-left: 25px;
+	background-image: url(../images/servicearea/service-area-back.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+}
+
+.why-we-use-image-inner img {
+	height: 560px;
+	object-fit: cover;
+	object-position: center;
+	-webkit-clip-path: url(#service-area-clip);
+	clip-path: url(#service-area-clip)
+}
+
+.why-we-use-hole {
+	padding-left: 49px
+}
+
+.why-we-use-hole h4 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.why-we-use-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 400
+}
+
+.aboutus-section-tempor {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.aboutus-tempor-image {
+	float: right;
+	margin-left: 25px
+}
+
+.aboutus-section-tempor-hole {
+	padding-left: 49px
+}
+
+.aboutus-tempor-imageinner img {
+	height: 650px;
+	object-fit: cover;
+	object-position: center;
+	-webkit-clip-path: url(#abt-clip);
+	clip-path: url(#abt-clip);
+	width: 100%
+}
+
+.aboutus-section-tempor-hole h4 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 600;
+	margin-bottom: 25px
+}
+
+.aboutus-tempor-imageinner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #931305;
+	-webkit-clip-path: url(#abt-clip);
+	clip-path: url(#abt-clip);
+	top: 24px;
+	right: 0
+}
+
+.aboutus-section-tempor-hole p {
+	margin-bottom: 25px
+}
+
+.aboutus-section-tempor-hole.about-locksmith-hole a {
+    float: none;
+    width: auto;
+    background: none;
+    display: inline-block;
+    overflow: initial;
+}
+
+.service-about-sec {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0
+}
+
+.service-about-sec-hole h4 {
+	font-size: 60px;
+	line-height: 55px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 2em;
+	text-align: center
+}
+
+.service-about-single-image {
+	width: 220px;
+	height: 200px;
+	margin: 0 auto;
+	background-image: url(../images/about/servi.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding-top: 40px;
+	margin-bottom: 2em
+}
+
+.service-about-single-inner {
+	margin: 0 10px;
+	text-align: center
+}
+
+.service-about-single-inner h5 {
+	font-size: 42px;
+	line-height: 45px;
+	color: #941305;
+	font-weight: 400
+}
+
+.service-about-single-image img {
+	margin-left: -20px
+}
+
+.whychoose-sect-abt {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0;
+	position: relative
+}
+
+.whychoose-sect-abt-hole h4 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #941305;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 2em
+}
+
+.whychoose-abt-single-back {
+	width: 265px;
+	height: 245px;
+	text-align: center;
+	background-image: url(../images/about/hex.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto
+}
+
+.whychoose-abt-single-back h5 {
+	font-size: 37px;
+	line-height: 39px;
+	color: #941305;
+	font-weight: 400
+}
+
+.whychoose-abt-single-icon {
+	width: 95px;
+	height: 95px;
+	position: absolute;
+	bottom: -25px;
+	background-color: #941305;
+	border-radius: 50%;
+	padding-top: 20px
+}
+
+.whychoose-sect-abt:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 310px;
+	background-image: url(../images/about/wave.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 15em
+}
+
+.auto-section-first {
+	float: left;
+	width: 100%;
+	margin: 0 0;
+	padding: 3em 0;
+	position: relative
+}
+
+.auto-section-image-inner img {
+	width: 510px;
+	height: 510px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%;
+	margin-top: 3em
+}
+
+.auto-section-image-inner {
+	text-align: center;
+	width: 605px;
+	height: 605px;
+	border: 2px solid #575757;
+	border-radius: 50%;
+	position: relative
+}
+
+.auto-section-image-inner:before {
+	content: '';
+	position: absolute;
+	width: 565px;
+	height: 565px;
+	border: 2px solid #575757;
+	border-radius: 50%;
+	left: 0;
+	top: 20px;
+	right: 0;
+	margin: 0 auto
+}
+
+.auto-section-hole h4 {
+	font-size: 40px;
+	line-height: 63px;
+	color: #941305;
+	font-weight: 400;
+	margin-bottom: 20px;
+	margin-top: 2em
+}
+
+.auto-section-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #030303;
+	font-weight: 400
+}
+
+.auto-section-first:before {
+	content: '';
+	position: absolute;
+	width: 375px;
+	height: 475px;
+	background-image: url(../images/auto/tire.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	left: 0;
+	top: 0
+}
+
+.service-locksmith-hole.auto {
+	background-image: unset
+}
+
+.service-locksmith-sli.auto:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 430px;
+	background-image: url(../images/auto/service_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+}
+
+.service-locksmith-sli.auto {
+	position: relative
+}
+
+.service-locksmith-sli.auto .slick-list.draggable {
+	margin: 1em 0
+}
+
+.cupidat-sec {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.cupidat-sec-hole {
+	position: relative;
+	height: 550px
+}
+
+.cupidat-sec-hole {
+	content: '';
+	position: absolute;
+	width: 100%;
+	background-image: url(../images/auto/car-door.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	-webkit-clip-path: polygon(0 49%, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 49%, 100% 0, 100% 100%, 0 100%)
+}
+
+.cupidat-sec-content {
+	background-color: #941305;
+	padding: 4em 3em;
+	border-radius: 50px;
+	margin-top: -2em;
+	width: 60%;
+	overflow: hidden
+}
+
+.cupidat-sec-content-inner h4 {
+	font-size: 30px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.cupidat-sec-content-inner p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 300
+}
+
+.cupidat-sec-content:before {
+	content: '';
+	position: absolute;
+	width: 50%;
+	height: 200px;
+	bottom: -32px;
+	right: -30px;
+	background-image: url(../images/auto/car-side.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%
+}
+
+.whychoose-sec-hole-mark.auto:nth-child(2) .whychoose-sec-icon {
+	float: left
+}
+
+.whychoose-sec-hole-mark.auto:nth-child(2) .whychoose-sec-name {
+	float: left;
+	margin-right: 0;
+	margin-left: -3em;
+	background-image: url(../images/home/hexa-righ.png)
+}
+
+.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+	-webkit-clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 80% 100%, 0 100%);
+	margin-right: 0;
+	margin-left: -3em;
+	float: left
+}
+
+.whychoose-section-auto {
+	float: left;
+	width: 100%;
+	margin: 1em 0;
+	padding: 1em 0
+}
+
+.whychoose-section-hole-auto h4 {
+	font-size: 60px;
+	line-height: 60px;
+	color: #941305;
+	font-weight: 700;
+	margin-bottom: 1em
+}
+
+.whychoose-section-hole-auto {
+	padding-left: 49px;
+	position: relative
+}
+
+.whychoose-sec-hole-mark.auto:nth-child(2) {
+	margin-left: 7em
+}
+
+.whychoose-sec-hole-mar.auto:nth-child(3) {
+	margin-left: 14em
+}
+
+.whychoose-auto-content {
+	position: relative;
+	z-index: 9
+}
+
+.right_block {
+	position: absolute;
+	width: 60%;
+	height: 625px;
+	background-image: url(../images/auto/lady.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+	-webkit-clip-path: url(#whychoose-auto);
+	clip-path: url(#whychoose-auto)
+}
+
+.service-detail-sec {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.service-detail-image {
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 3em;
+	width: 43%;
+}
+
+.service-detail-image-inner img {
+	height: 550px;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	-webkit-clip-path: url(#service-second);
+	clip-path: url(#service-second)
+}
+
+.service-detail-hole h4 {
+	font-size: 30px;
+	line-height: 44px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 25px
+}
+
+.service-detail-hole h1 {
+	font-size: 40px;
+	line-height: 44px;
+	color: #000;
+	font-weight: 600;
+	margin-bottom: 25px;
+	color: #737d8f
+}
+
+.service-detail-hole h2 {
+	color: #bd1628
+}
+
+.service-detail-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #030303;
+	font-weight: 400;
+	margin-bottom: 15px;
+	font-family: Oswald-Light
+}
+
+.review-sideown-hole p {
+	color: #fff
+}
+
+.sidebar-service-detail {
+	float: right;
+	width: 440px;
+	margin-left: 25px
+}
+
+.service-side.own h6 {
+	font-size: 30px;
+	line-height: 50px;
+	color: #931305;
+	font-weight: 700
+}
+
+.service-side.own {
+	background-color: #ebebeb;
+	padding: 1em 2em;
+	margin-bottom: 5em
+}
+
+.service-side.own h6 {
+	font-size: 30px;
+	line-height: 50px;
+	color: #931305;
+	font-weight: 700
+}
+
+.service-side.own ul {
+	padding: 0
+}
+
+.service-side.own ul li {
+	list-style-type: none
+}
+
+.service-side.own li a {
+	font-size: 24px;
+	line-height: 36px;
+	color: #010101;
+	font-weight: 400;
+	margin-bottom: 14px;
+	display: block
+}
+
+.review-side.own h6 {
+	font-size: 30px;
+	line-height: 50px;
+	color: #931305;
+	font-weight: 700;
+	margin-bottom: 1em
+}
+
+.service-detail-hole h5 {
+	font-size: 30px;
+	letter-spacing: -1px;
+	line-height: 50px;
+	color: #000;
+	margin-bottom: 20px
+}
+
+.customer-hmereview-megan-single-inner h5 {
+	font-size: 22px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 20px
+}
+
+.reviews-section-own .customer-hmereview-megan-single-inner p {
+	font-size: 18px;
+	line-height: 36px;
+	color: #fff;
+	font-weight: 400;
+	height: 140px;
+	overflow-y: scroll
+}
+
+.customer-hmereview-megan-single-inner p::-webkit-scrollbar {
+	width: 7px
+}
+
+.customer-hmereview-megan-single-inner p::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px
+}
+
+.customer-hmereview-megan-single-inner p::-webkit-scrollbar-thumb {
+	background: #931305;
+	border-radius: 10px
+}
+
+.customer-hmereview-megan-single-inner p::-webkit-scrollbar-thumb:hover {
+	background: #b30000
+}
+
+.service-detail-hole ul li {
+	list-style-type: none;
+	margin-bottom: 20px;
+	display: block;
+	float: left;
+	padding-left: 3em;
+	font-family: Oswald-Light;
+	line-height: 32px;
+	font-size: 18px
+}
+
+.service-detail-hole ul li p {
+	padding-left: 65px;
+	vertical-align: middle
+}
+
+.service-detail-hole ul {
+	padding: 0;
+	width: 63%
+}
+
+.service-detail-hole ul li:before {
+	content: '';
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background-image: url(../images/service-detail/tick.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	left: 0
+}
+
+.service-side.own span {
+	font-size: 24px;
+	line-height: 32px;
+	color: #010101;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 15px
+}
+
+.service-detail-image-inner {
+	background-color: #941305;
+	-webkit-clip-path: url(#service-second);
+	clip-path: url(#service-second);
+	padding-bottom: 20px;
+	padding-right: 5px
+}
+
+.review-sideown-hole .slick-list.draggable {
+	padding-top: 5em
+}
+
+.whychoose-section-hole-auto.service-detail:before {
+	background-image: url(../images/service-detail/whychoose.jpg)
+}
+
+.commercial-section-natus {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.commercial-secti-image {
+	float: right;
+	width: 720px;
+	margin-right: -2em;
+	margin-left: 25px
+}
+
+.commercial-secti-image-inner img {
+	height: 720px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 50%
+}
+
+.commercial-section-hole {
+	padding-left: 49px
+}
+
+.commercial-section-hole h4 {
+	font-size: 28px;
+	line-height: 46px;
+	color: #941305;
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+.commercial-section-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 20px
+}
+
+.call-tempor-content p {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.call-tempor-content p a {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 0
+}
+
+.commercial-cap {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 50%
+}
+
+.constectur-section {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: -7em;
+	z-index: -1
+}
+
+.constectur-section:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/commercial/magnetic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -2em;
+	z-index: -2;
+	-webkit-clip-path: polygon(0 6%, 100% 0, 100% 99%, 0 100%);
+	clip-path: polygon(0 6%, 100% 0, 100% 99%, 0 100%)
+}
+
+.constectur-section-hole h4 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 20px
+}
+
+.constectur-section-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 300
+}
+
+.constectur-image {
+	margin-right: 25px
+}
+
+.constectur-image-inner img {
+	height: 415px;
+	object-fit: cover;
+	object-position: center
+}
+
+.constectur-section-hole {
+	padding: 9em 0 0 0
+}
+
+.constectur-section:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #941305ad;
+	top: -2em;
+	z-index: -1;
+	left: 0
+}
+
+.constectur-section:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/commercial/magnetic.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -2em;
+	z-index: -2
+}
+
+.constectur-section:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #941305d4;
+	top: -2em;
+	z-index: -1;
+	left: 0;
+	-webkit-clip-path: polygon(0 6%, 100% 0, 100% 99%, 0 100%);
+	clip-path: polygon(0 6%, 100% 0, 100% 99%, 0 100%)
+}
+
+.commercial-include {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.commercial-include-hole h4 {
+	font-size: 30px;
+	line-height: 32px;
+	color: #222;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 2em
+}
+
+.commercial-include-servi-outin {
+	background-image: url(../images/commercial/rectangle.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 85px;
+	max-width: 90%;
+	margin: 0 auto;
+	padding-top: 20px
+}
+
+.commercial-include-servi-inner {
+	margin-bottom: 2em
+}
+
+.commercial-include-servi-outin a {
+	font-size: 24px;
+	line-height: 32px;
+	color: #222;
+	font-weight: 400;
+	text-align: center;
+	display: block
+}
+
+.locksmith-service {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 1em 0;
+	position: relative
+}
+
+.locksmith-service-hole-inner {
+	background-color: #fff;
+	height: 610px;
+	overflow: hidden;
+	box-shadow: 2.27px 4.455px 13.5px rgba(0, 0, 0, .31);
+	-webkit-clip-path: url(#lock-clip);
+	clip-path: url(#lock-clip)
+}
+
+.locksmith-service-image-inner img {
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	height: 100%
+}
+
+.locksmith-service-content {
+	padding: 3em 2em
+}
+
+.leading-locksmith-sec {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0;
+	position: relative
+}
+
+.locksmith-service-content h4 {
+	font-size: 24px;
+	line-height: 32px;
+	color: #941305;
+	font-weight: 600;
+	margin-bottom: 25px
+}
+
+.locksmith-service-content p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #222;
+	font-weight: 300
+}
+
+.locksmith-service:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	background-image: url(../images/locksmith/lock-first.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	bottom: 0;
+	height: 500px;
+	bottom: -45px
+}
+
+.locksmith-service-image {
+	float: left;
+	width: 49.2%
+}
+
+.leading-locksmith-content {
+	padding-left: 49px;
+	background-color: #941305;
+	height: 100%;
+	padding-right: 50px;
+	padding-top: 60px
+}
+
+.leading-locksmith-sec-inner {
+	height: 600px;
+	overflow: hidden;
+	position: relative;
+	clip-path: polygon(78% 20%, 100% 0, 100% 45%, 100% 90%, 77% 100%, 28% 90%, 0 100%, 0 11%, 25% 0)
+}
+
+.leading-locksmith-image-inner img {
+	height: 100%;
+	object-fit: cover;
+	object-position: center
+}
+
+.leading-locksmith-content h4 {
+	font-size: 50px;
+	line-height: 62px;
+	color: #fff;
+	font-weight: 700;
+	margin-bottom: 1em
+}
+
+.leading-locksmith-content ul li p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #fff;
+	font-weight: 400;
+	padding-left: 50px
+}
+
+.leading-locksmith-content ul li {
+	list-style-type: none;
+	margin-bottom: 20px
+}
+
+.leading-locksmith-content ul {
+	padding: 0
+}
+
+.leading-locksmith-content ul li:before {
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/locksmith/key.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center
+}
+
+.leading-locksmith-sec:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/locksmith/grey.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	top: 0
+}
+
+.residentail-locksmith {
+	float: left;
+	width: 100%;
+	margin: 2em 0;
+	padding: 2em 0
+}
+
+.residential-locksmith-hole {
+	padding-right: 49px
+}
+
+.residential-locksmith-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 20px;
+	z-index: 999;
+	position: relative;
+	padding-top: 12em;
+	padding-left: 49px;
+	margin-bottom: 25px
+}
+
+.residentail-locksmith-image {
+	margin-right: 25px;
+	width: 60%;
+	float: left
+}
+
+.residentail-locksmith-image-inner img {
+	height: 450px;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	clip-path: polygon(70% 0, 100% 38%, 100% 100%, 0 100%, 0 38%)
+}
+
+.callresidentail-image {
+	width: 140px;
+	height: 140px;
+	display: inline-block;
+	margin-right: 25px
+}
+
+.call-residential-content {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle
+}
+
+.call-residential-content p {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+	padding-top: 0
+}
+
+.call-residential-content a {
+	display: block;
+	background-color: #931305;
+	padding: 10px 0;
+	font-size: 32px;
+	width: 280px;
+	line-height: 42px;
+	text-align: center;
+	color: #ffff;
+	border-radius: 50px
+}
+
+.callresidentail {
+	width: 50%;
+	padding-left: 49px;
+	position: relative;
+	z-index: 999
+}
+
+.residential-locksmith-hole:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+	-webkit-clip-path: polygon(33% 66%, 75% 0, 100% 21%, 100% 100%, 0 83%, 0 48%);
+	clip-path: polygon(33% 66%, 75% 0, 100% 21%, 100% 100%, 0 83%, 0 48%);
+	z-index: 1
+}
+
+.natus-error-content h4 {
+	font-size: 28px;
+	margin-bottom: 25px;
+	line-height: 32px
+}
+
+.natus-error-image {
+	float: right;
+	margin-left: 25px;
+	margin-top: -10em;
+	z-index: 999
+}
+
+.natus-error-hole h4 {
+	font-size: 32px;
+	line-height: 42px;
+	margin-bottom: 20px
+}
+
+.natus-error-hole p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 15px
+}
+
+.natus-error-image-inner img {
+	height: 630px;
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	-webkit-clip-path: url(#natus-clip);
+	clip-path: url(#natus-clip)
+}
+
+.natus-error-image-inner {
+	background-color: #931305;
+	-webkit-clip-path: url(#natus-clip);
+	clip-path: url(#natus-clip);
+	padding-bottom: 20px;
+	padding-right: 15px
+}
+
+.natus-error {
+	float: left;
+	width: 100%;
+	margin-bottom: 4em;
+	position: relative;
+	padding-bottom: 20px
+}
+
+.natus-error:before {
+	content: '';
+	position: absolute;
+	width: 30%;
+	height: 100%;
+	bottom: -10em;
+	background-image: url(../images/residential/lines.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	right: 0;
+	z-index: -1
+}
+
+.whychoose-abt-sli .slick-list.draggable {
+	padding: 3em 0
+}
+
+.sitemap-lists {
+	float: left;
+	width: 100%
+}
+
+.blog-banner-inner-image.service_are img {
+	object-position: center
+}
+
+.abt-emergency a {
+	background: 0 0;
+	position: relative;
+	z-index: 999999
+}
+
+@media only screen and (min-width:1400px) {
+	.why-we-use-image {
+		width: 30%
+	}
+	.locksmith-service:before {
+		height: 620px
+	}
+	.whychoose-sec-hole-mark:nth-child(2) {
+		margin-left: 1em
+	}
+	.whychoose-sec-content-hole .whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+		left: 8em
+	}
+}
+
+@media only screen and (min-width:1600px) {
+	.whychoose-sec-content-hole .whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+		left: 6em
+	}
+	.whychoose-sec-content-hole {
+		margin-top: 6em
+	}
+	.whychoose-sec-hole-mark:nth-child(2) {
+		width: 90%
+	}
+	.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-name {
+		margin-right: 1em
+	}
+	.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-icon {
+		position: relative;
+		right: 45px
+	}
+	.whychoose-sec-hole-mark:nth-child(2) {
+		margin-left: 10em
+	}
+}
+
+@media only screen and (min-width:1920px) {
+	.banner-locksmith-content {
+		width: 50%
+	}
+	.whychoose-sec-image-outer img {
+		height: 38vw
+	}
+	.whychoose-sec-image-inner img {
+		height: 35vw
+	}
+	.tempor-locksmith-image-inner img {
+		height: 500px
+	}
+	.arrow-tempor {
+		top: 33%;
+		left: 863px
+	}
+	.blogs-section:before {
+		background-size: 100% 100%
+	}
+	.footer-locksmith-hole {
+		background-size: 100% 100%
+	}
+	.whychoose-sec-content {
+		width: 431px
+	}
+	.whychoose-sec-content-hole .whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+		left: 15em;
+		padding-right: 33px
+	}
+	.whychoose-section-hole-auto {
+		padding-left: 23em
+	}
+	.residentail-locksmith-image {
+		width: 70%
+	}
+	.residential-locksmith-hole {
+		padding-right: 23em
+	}
+	.callresidentail {
+		padding-left: 23em
+	}
+	.aboutus-tempor-imageinner img {
+		width: 100%
+	}
+	.commercial-section-hole {
+		padding-left: 23em
+	}
+	.aboutus-section-tempor-hole {
+		padding-left: 23em
+	}
+	.locksmith-service:before {
+		background-size: 100% 100%
+	}
+	.leading-locksmith-content {
+		padding-left: 23em
+	}
+}
+
+@media only screen and (max-width:1300px) {
+	.container {
+		padding: 0 15px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 55px;
+		line-height: 55px
+	}
+	.about-locksmith-hole h2 {
+		font-size: 28px;
+		line-height: 32px
+	}
+	.about-locksmith-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.whychoose-sec-name {
+		width: 180px
+	}
+	.whychoose-sec-name h5 {
+		font-size: 26px;
+		line-height: 32px
+	}
+	.arrow-tempor {
+		left: 480px
+	}
+	.tempor-locksmith {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.customer-hmereviews-hole-inner h4 {
+		margin-bottom: 20px
+	}
+	.customer-hmereviews-hole {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.blog-hme-title h5 {
+		font-size: 20px;
+		line-height: 28px
+	}
+	.service-locksmith-hme-single-inner img {
+		height: 365px
+	}
+	.about-locksmith {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.abt-call-now p {
+		font-size: 38px;
+		line-height: 55px;
+		padding: 0 3em
+	}
+	.blog-detail-image {
+		width: 64%
+	}
+	.blog-detail-side.recent ul li a p {
+		width: 63%
+	}
+	.blog-date {
+		width: 64%
+	}
+	.call-icon-section-austin {
+		padding-left: 15px
+	}
+	.contact-call-austin a {
+		padding-left: 15px
+	}
+	.aboutus-section-tempor-hole {
+		padding-left: 15px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 46px;
+		line-height: 50px
+	}
+	.aboutus-tempor-imageinner img {
+		height: 450px
+	}
+	.commercial-section-hole {
+		padding-left: 15px
+	}
+	.constectur-section {
+		margin-top: 0
+	}
+	.commercial-secti-image-inner img {
+		height: 600px
+	}
+	.constectur-section-hole {
+		padding: 3em 0 0 0
+	}
+	.about-locksmith-hole h1 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.service-about-sec-hole h4 {
+		font-size: 55px;
+		line-height: 50px;
+		margin-bottom: 1em
+	}
+	.service-about-single-inner h5 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.whychoose-sect-abt-hole h4 {
+		font-size: 50px;
+		line-height: 55px
+	}
+	.whychoose-sect-abt {
+		margin: 2em 0;
+		padding: 2em 0
+	}
+	.whychoose-abt-single-back h5 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.customer-hmereviews-hole-inner h4 {
+		font-size: 50px;
+		line-height: 55px
+	}
+	.auto-section-image-inner img {
+		width: 400px;
+		height: 400px
+	}
+	.auto-section-image-inner:before {
+		width: 455px;
+		height: 455px
+	}
+	.auto-section-image-inner {
+		width: 500px;
+		height: 500px
+	}
+	.service-locksmith-sli.auto:before {
+		content: unset
+	}
+	.service-locksmith-hole h4 {
+		font-size: 50px;
+		line-height: 55px
+	}
+	.leading-locksmith-content h4 {
+		font-size: 42px;
+		line-height: 50px
+	}
+	.why-we-use-hole {
+		padding-left: 15px
+	}
+	.service-areas-sec-hole .mapouter {
+		height: 750px
+	}
+	.service-areas-sec-hole .gmap_canvas {
+		height: 750px
+	}
+	.why-we-use-image-inner img {
+		height: 500px
+	}
+	.service-detail-image {
+		margin-bottom: 1em
+	}
+	.service-detail-image-inner img {
+		height: 450px
+	}
+	.service-side.own span {
+		font-size: 22px
+	}
+	.service-detail-hole ul {
+		padding: 0;
+		float: left;
+		width: 57%
+	}
+	.service-side.own {
+		margin-bottom: 2em
+	}
+	.but-snd {
+		text-align: right
+	}
+	.blog-banner-hole.blog-detail .blog-banner-inner-image img {
+		height: auto;
+		object-position: center
+	}
+	.service-detail-image{
+		float: left;
+		width: 39%;
+	}
+
+}
+
+@media only screen and (max-width:1200px) {
+	.header-call-locksmith a span {
+		margin-right: 10px
+	}
+	.header-call-locksmith a span img {
+		width: 60px
+	}
+	.header-call-locksmith a p {
+		font-size: 28px;
+		line-height: 30px
+	}
+	.header-emergeny-locksmith span {
+		margin-right: 15px
+	}
+	.header-emergeny-locksmith-inner h5 {
+		font-size: 28px
+	}
+	.header-emergeny-locksmith-inner h6 {
+		font-size: 18px
+	}
+	.header-nav nav>ul>li>a {
+		padding: 0 6px;
+		font-size: 18px
+	}
+	.header-nav nav>ul>li ul.megamenu ul li a {
+		font-size: 18px
+	}
+	.banner-locksmith-content-inner h4 {
+		font-size: 50px;
+		line-height: 65px
+	}
+	.banner-locksmith-content-inner h1 {
+		font-size: 50px;
+		line-height: 65px
+	}
+	.banner-locksmith-content-inner h2 {
+		font-size: 50px;
+		line-height: 65px
+	}
+	.about-locksmith-image-outer {
+		width: 330px
+	}
+	.about-locksmith-image-inner img {
+		height: 330px
+	}
+	.abt-emergency {
+		width: 165px;
+		height: 130px;
+		left: -7px;
+		transform: rotate(-30deg)
+	}
+	.abt-call-now {
+		width: 210px;
+		right: -10px;
+		transform: rotate(-30deg)
+	}
+	.abt-call-now p {
+		padding: 0 2em;
+		font-size: 32px;
+		line-height: 50px
+	}
+	.about-locksmith-image {
+		margin-right: 20px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 50px;
+		line-height: 50px
+	}
+	.about-locksmith-hole h2 {
+		font-size: 26px;
+		line-height: 32px
+	}
+	.service-locksmith-hole h4 {
+		font-size: 50px;
+		line-height: 50px
+	}
+	.service-locksmith-hme-single-inner img {
+		height: 295px
+	}
+	.service-locksmith-hme-single h5 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.voluptatem-back {
+		display: none
+	}
+	.voluptatem-image {
+		width: 420px
+	}
+	.voluptatem-image-inner img {
+		height: 420px
+	}
+	.voluptatem-hole h2 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.voluptatem-hole p {
+		font-size: 16px;
+		line-height: 32px
+	}
+	.whychoose-section {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.whychoose-section-hole h4 {
+		font-size: 50px;
+		line-height: 50px
+	}
+	.whychoose-sec-icon {
+		width: 60px;
+		height: 60px
+	}
+	.whychoose-sec-icon img {
+		width: 30px
+	}
+	.whychoose-sec-name {
+		width: 180px;
+		height: 150px
+	}
+	.whychoose-sec-name h5 {
+		font-size: 22px;
+		line-height: 28px
+	}
+	.whychoose-sec-content {
+		width: 315px;
+		padding: 20px 45px 25px 40px
+	}
+	.whychoose-sec-content p {
+		font-size: 15px;
+		line-height: 24px
+	}
+	.whychoose-sec-image {
+		width: 45%
+	}
+	.whychoose-sec-content-hole {
+		padding-left: 15px;
+		width: 55%
+	}
+	.whychoose-sec-hole-mark {
+		margin-bottom: 1em
+	}
+	.tempor-locksmith-image {
+		float: left;
+		width: 60%;
+		margin-right: 20px;
+		padding-right: 20px
+	}
+	.tempor-locksmith-image-outer {
+		padding-right: 20px
+	}
+	.tempor-locksmith-image-inner img {
+		height: 420px
+	}
+	.call-tempor-content-out {
+		margin-left: 15px
+	}
+	.tempor-locksmith-hole h2 {
+		font-size: 24px;
+		line-height: 32px;
+		padding-top: 1em
+	}
+	.arrow-tempor {
+		display: none
+	}
+	.tempor-locksmith-hole {
+		padding-right: 15px
+	}
+	.tempor-locksmith-hole p {
+		padding-left: 15px
+	}
+	.customer-hmereviews-hole-inner h4 {
+		font-size: 50px;
+		line-height: 50px
+	}
+	.customer-hmereviews-megan {
+		margin: 25px 0 0 0
+	}
+	.blogs-section-hole h4 {
+		font-size: 50px;
+		line-height: 50px
+	}
+	.blog-hme-title {
+		padding: 0 2em;
+		padding-top: 20px
+	}
+	.blog-hme-title h5 {
+		font-size: 18px;
+		line-height: 26px
+	}
+	.blogs-section-single-image img {
+		height: 350px
+	}
+	.blogs-section-single:before {
+		height: 385px
+	}
+	.blogs-section-single:after {
+		height: 320px
+	}
+	.footer-links h5 {
+		font-size: 22px;
+		line-height: 30px
+	}
+	.call-footer-lock {
+		width: 70%;
+		float: left
+	}
+	.call-footer-lock p {
+		font-size: 20px
+	}
+	.footer-locksmith-hole {
+		background-size: 100% 100%;
+		height: auto;
+		padding: 10em 0 3em 0
+	}
+	.footer-locksmith-logo-sec {
+		padding: 4em 2em
+	}
+	.footer-locksmith-logo-sec p {
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 20px
+	}
+	.social-media a {
+		width: 50px;
+		height: 50px;
+		padding-top: 11px
+	}
+	.social-media i {
+		font-size: 26px
+	}
+	.blog-banner-inner-image img {
+		height: 480px
+	}
+	.blog-detail-side.recent ul li a p {
+		width: 55%;
+		vertical-align: middle;
+		line-height: 28px
+	}
+	.blog-detail-side.services ul li a p {
+		font-size: 28px
+	}
+	.contact-section-fast-form-main {
+		padding: 2em 3em 5em 3em
+	}
+	.call-icon-section-austin p {
+		font-size: 36px
+	}
+	.contact-call-austin a p {
+		font-size: 40px
+	}
+	.residential-locksmith-hole:before {
+		-webkit-clip-path: unset;
+		clip-path: unset;
+		z-index: -1
+	}
+	.residentail-locksmith-image-inner img {
+		clip-path: unset
+	}
+	.residentail-locksmith-image-inner img {
+		height: 300px
+	}
+	.residential-locksmith-hole p {
+		padding-top: 2em;
+		padding-left: 15px
+	}
+	.residential-locksmith-hole {
+		padding-right: 15px
+	}
+	.callresidentail {
+		width: 60%;
+		padding-left: 15px
+	}
+	.natus-error-image-inner img {
+		height: 500px
+	}
+	.natus-error:before {
+		bottom: -5em
+	}
+	.commercial-include-servi-outin {
+		height: 70px;
+		padding-top: 15px
+	}
+	.whychoose-section-hole-auto {
+		padding-left: 15px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 42px;
+		line-height: 46px
+	}
+	.aboutus-tempor-imageinner img {
+		height: 400px
+	}
+	.service-about-sec-hole h4 {
+		margin-bottom: 1em
+	}
+	.service-about-sec-hole h4 {
+		font-size: 55px;
+		line-height: 50px
+	}
+	.service-about-single-inner h5 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.commercial-secti-image {
+		width: 600px
+	}
+	.constectur-section-hole {
+		padding: 3em 0 3em 0
+	}
+	.constectur-image-inner img {
+		height: 300px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.aboutus-tempor-image {
+		float: right;
+		margin-left: 20px;
+		margin-bottom: 2em
+	}
+	.service-about-sec-hole h4 {
+		font-size: 50px;
+		line-height: 45px
+	}
+	.auto-section-image-inner:before {
+		content: none
+	}
+	.auto-section-image-inner {
+		border: unset
+	}
+	.auto-section-first:before {
+		height: 400px
+	}
+	.auto-section-hole h4 {
+		font-size: 36px;
+		line-height: 50px;
+		margin-top: 1em
+	}
+	.auto-section-first {
+		padding: 1em 0
+	}
+	.cupidat-sec-content-inner h4 {
+		font-size: 28px
+	}
+	.cupidat-sec-content-inner p {
+		font-size: 16px
+	}
+	.locksmith-service-content {
+		padding: 2em 1em;
+		float: right;
+		width: 48%
+	}
+	.locksmith-service-hole-inner {
+		height: auto;
+		box-shadow: none;
+		-webkit-clip-path: unset;
+		clip-path: unset;
+		background-color: unset
+	}
+	.locksmith-service:before {
+		content: unset
+	}
+	.leading-locksmith-content h4 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.leading-locksmith-sec-inner {
+		height: 600px;
+		clip-path: unset
+	}
+	.service-areas-sec {
+		margin: 0 0 1em 0;
+		padding: 0 0 1em 0
+	}
+	.why-we-use-image {
+		width: 50%
+	}
+	.why-we-use-hole p {
+		font-size: 16px
+	}
+	.service-detail-sec {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.service-side.own span {
+		font-size: 20px
+	}
+	.sidebar-service-detail{
+		width: 310px;
+   	    margin-left: 20px;
+   	    float: right;
+	}
+
+
+}
+
+@media only screen and (max-width:992px) {
+	.mobile-header {
+		display: block
+	}
+	.mob_navi.menu {
+		display: block
+	}
+	.mobile-header {
+		display: block;
+		float: left;
+		width: 100%
+	}
+	.mobile-header button.navbar-toggle {
+		color: #fff;
+		float: left;
+		display: block;
+		margin-left: 5px;
+		position: absolute;
+		top: -8.5em;
+		right: 5px;
+		z-index: 999;
+		background-color: #c2951d;
+		display: block;
+		border: 1px solid #c2951d
+	}
+	.mobile-logo {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 2em;
+		padding: 0 15px
+	}
+	.mobile-header .navbar-toggle .icon-bar {
+		background-color: #fff
+	}
+	.mob_navi {
+		position: fixed;
+		top: 0;
+		z-index: 9;
+		width: 350px;
+		height: 100%;
+		padding-top: 10px;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		transform: translate(-100%, 0);
+		transition: .5s;
+		z-index: 999999;
+		background-color: #fff
+	}
+	.mob_navi.menu_open {
+		transform: translate(0, 0)
+	}
+	.mob_sub_navigate span {
+		width: 50%;
+		padding-left: 15px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 18px;
+		cursor: pointer;
+		opacity: 0;
+		transition: .5s
+	}
+	.glyphicon {
+		position: relative;
+		top: 1px;
+		display: inline-block;
+		font-family: "Glyphicons Halflings";
+		font-style: normal;
+		font-weight: 400;
+		line-height: 1;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale
+	}
+	.mob_sub_navigate i {
+		width: 48%;
+		padding-right: 15px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 18px;
+		text-align: right;
+		cursor: pointer;
+		color: #941305;
+		float: right
+	}
+	#mob_menu {
+		margin: 0;
+		padding: 0;
+		background-color: #941305;
+		float: left;
+		width: 100%
+	}
+	#mob_menu li {
+		list-style-type: none
+	}
+	#mob_menu li a {
+		text-decoration: none;
+		color: #ffff;
+		display: block;
+		padding: 10px 15px;
+		font-size: 20px
+	}
+	#mob_menu li a:hover {
+		color: #747d90;
+		transition: .5s
+	}
+	.mob_navi.submenu_open {
+		overflow-y: hidden
+	}
+	.mob_sub_navigate span {
+		width: 50%;
+		padding-left: 15px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 18px;
+		cursor: pointer;
+		opacity: 0;
+		transition: .5s;
+		color: #941305
+	}
+	.mob_navi.submenu_open .mob_sub_navigate span {
+		opacity: 1
+	}
+	.mob_sub_menu {
+		position: absolute;
+		z-index: 9999;
+		width: 100%;
+		top: 0;
+		left: 0;
+		transform: translate(100%, 0);
+		transition: .5s;
+		padding-bottom: 15px;
+		padding-left: 0;
+		background-color: #941305
+	}
+	.mob_sub_link span {
+		font-size: 16px;
+		display: inline-block;
+		width: 10px;
+		text-align: center;
+		right: 10px;
+		line-height: 10px;
+		cursor: pointer;
+		float: right;
+		margin-right: 5px;
+		color: #fff;
+		position: relative;
+		top: -27px
+	}
+	.mobile.header {
+		background-color: #222;
+		color: #fff;
+		padding: 10px;
+		padding-left: 15px;
+		float: left;
+		width: 100%
+	}
+	.submenu_open #mob_menu {
+		transform: translate(-100%, 0);
+		transition: .5s
+	}
+	ul.mob_sub_menu.submenu_open {
+		background-color: #222;
+		transform: translate(0, 0);
+		transition: .5s;
+		height: 100%
+	}
+	.mobile.header {
+		display: block
+	}
+	.mob_navi.menu {
+		display: block
+	}
+	.mobile.mobile-one {
+		display: block
+	}
+	.header {
+		display: none
+	}
+	.columbus.banner {
+		z-index: 9
+	}
+	.header-logo-mob {
+		display: block
+	}
+	.header-logo-mob {
+		display: block;
+		position: absolute;
+		z-index: 999;
+		width: 30%;
+		padding: 20px 0 0 15px
+	}
+	.mobile-header {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 12em;
+		z-index: 99999
+	}
+	.mobile-top-head {
+		display: block
+	}
+	.header-call-locksmith a span img {
+		width: 50px
+	}
+	.header-call-locksmith a p {
+		font-size: 22px;
+		line-height: 30px
+	}
+	.header-emergeny-locksmith {
+		text-align: center;
+		padding: 6px 0
+	}
+	.header-emergeny-locksmith span img {
+		width: 50px
+	}
+	.header-emergeny-locksmith span {
+		margin-right: 10px
+	}
+	.header-emergeny-locksmith-inner h5 {
+		font-size: 20px
+	}
+	.header-emergeny-locksmith-inner h6 {
+		font-size: 15px
+	}
+	.header-locksmith-menus {
+		display: none
+	}
+	.header-locksmith-cov {
+		padding-bottom: 3em
+	}
+	.mobile-header button.navbar-toggle {
+		top: -6.5em;
+		right: 15px;
+		background-color: #941305;
+		border: 1px solid #941305
+	}
+	.banner-locksmith-image img {
+		height: 500px
+	}
+	.banner-locksmith-content {
+		width: 71%
+	}
+	.banner-locksmith-content-inner {
+		padding: 75px 80px 40px 15px
+	}
+	.banner-locksmith-content-inner h4 {
+		font-size: 45px;
+		line-height: 45px
+	}
+	.banner-locksmith-content-inner h1 {
+		font-size: 45px;
+		line-height: 45px
+	}
+	.banner-locksmith-content-inner h2 {
+		font-size: 45px;
+		line-height: 45px
+	}
+	.banner-locksmith-content-inner p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.about-locksmith-image {
+		margin-right: 25px
+	}
+	.about-locksmith-image {
+		margin-top: 3em;
+		margin-bottom: 2em
+	}
+	.about-locksmith-image-outer {
+		width: 250px
+	}
+	.about-locksmith-image-inner img {
+		height: 250px
+	}
+	.abt-call-now {
+		width: 190px;
+		right: -25px;
+		height: 140px;
+		top: -20px
+	}
+	.abt-call-now p {
+		font-size: 28px;
+		line-height: 42px
+	}
+	.abt-emergency {
+		width: 140px;
+		height: 120px;
+		left: -10px;
+		bottom: -4px
+	}
+	.abt-emergency img {
+		width: 55px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.about-locksmith-hole h2 {
+		font-size: 24px;
+		line-height: 28px
+	}
+	.about-locksmith-hole p {
+		font-size: 15px;
+		line-height: 30px
+	}
+	.service-locksmith-hole h4 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.service-locksmith-hme-single h5 {
+		font-size: 32px;
+		line-height: 32px
+	}
+	.service-locksmith-hme-single-inner img {
+		height: 340px;
+		width: 340px
+	}
+	.service-locksmith-hme-single h5 {
+		font-size: 28px;
+		line-height: 32px
+	}
+	.voluptatem {
+		padding: 0 0
+	}
+	.voluptatem-image {
+		width: 350px
+	}
+	.voluptatem-image-inner img {
+		height: 350px
+	}
+	.voluptatem-hole h2 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.voluptatem-hole p {
+		font-size: 16px;
+		line-height: 32px
+	}
+	.whychoose-sec-content-hole {
+		width: 65%
+	}
+	.whychoose-sec-image {
+		width: 35%
+	}
+	.whychoose-sec-image-outer {
+		display: none
+	}
+	.tempor-locksmith-image-inner img {
+		height: 350px
+	}
+	.tempor-locksmith-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.call-tempor-content h6 {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.call-tempor-content p {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.call-tempor-content p a {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.customer-hmereviews-hole-inner h4 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.customer-hmereview-megan-single-inner {
+		margin: 0 15px;
+		padding: 4em 2em 0 2em;
+		height: 350px
+	}
+	.customer-hmereview-megan-single-inner h5 {
+		font-size: 20px;
+		line-height: 32px;
+		margin-bottom: 15px
+	}
+	.customer-hmereview-megan-single-inner p {
+		font-size: 17px;
+		line-height: 32px
+	}
+	span.fa.fa-star.checked {
+		font-size: 16px
+	}
+	span.fa.fa-star {
+		font-size: 16px
+	}
+	.double-quotes img {
+		width: 50px
+	}
+	.double-quotes {
+		top: -25px
+	}
+	.customer-hmereview-megan-single:before {
+		top: -38px
+	}
+	.customer-hmereview-megan-single:after {
+		top: -44px
+	}
+	.blogs-section-hole h4 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.footer-locksmith-hole {
+		padding: 3em 0 3em 0;
+		background-color: #951305;
+		background-image: unset
+	}
+	.footer-locksmith-logo-sec p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 20px
+	}
+	.footer-locksmith-logo-sec-inner {
+		text-align: center;
+		margin-bottom: 15px
+	}
+	.footer-links h5 {
+		font-size: 20px;
+		line-height: 30px
+	}
+	.footer-links ul li a {
+		font-size: 16px;
+		line-height: 36px
+	}
+	.footer-call-locksmith span {
+		width: 50px;
+		height: 50px;
+		margin-right: 15px
+	}
+	.footer-call-locksmith span i {
+		font-size: 28px;
+		padding-top: 10px
+	}
+	.call-footer-lock {
+		width: 62%
+	}
+	.call-footer-lock p {
+		font-size: 18px;
+		line-height: 28px
+	}
+	.footer-bottom-locksmith {
+		background-color: #747d90;
+		padding: 1em 0;
+		text-align: center;
+		margin-top: 10px
+	}
+	.footer-iboost-lock {
+		margin: 0 auto;
+		float: none
+	}
+	.whychoose-sec-image-inner {
+		margin: 0
+	}
+	.abt-call-now p {
+		font-size: 28px;
+		line-height: 42px
+	}
+	.blog-banner-inner-image img {
+		height: 390px
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner {
+		padding: 45px 80px 30px 15px
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner h4 {
+		margin-bottom: 15px
+	}
+	.blog-detail-image {
+		width: 52%
+	}
+	.blog-detail-sidebar {
+		width: 45%
+	}
+	.blog-date {
+		width: 52%
+	}
+	.blog-detail-sec h4, .btitle {
+		font-size: 28px;
+		line-height: 42px
+	}
+	.blog-detail-side h6 {
+		font-size: 28px
+	}
+	.blog-detail-sec p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.contact-section-fast-form-inner {
+		max-width: 95%
+	}
+	.fast-austin-map .mapouter {
+		height: 500px
+	}
+	.fast-austin-map .gmap_canvas {
+		height: 500px
+	}
+	.contact-call-austin {
+		bottom: 0;
+		width: 40%;
+		height: 450px
+	}
+	.call-icon-section-austin span img {
+		width: 60px
+	}
+	.call-icon-section-austin p {
+		font-size: 32px
+	}
+	.contact-call-austin a p {
+		font-size: 36px
+	}
+	.callresidentail-image {
+		width: 100px
+	}
+	.call-residential-content p {
+		padding-top: 0
+	}
+	.call-residential-content p {
+		font-size: 22px
+	}
+	.call-residential-content a {
+		font-size: 28px
+	}
+	.natus-error-hole h4 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.natus-error-hole p {
+		font-size: 16px
+	}
+	.natus-error-image {
+		margin-top: 0
+	}
+	.natus-error-image-inner img {
+		height: 400px
+	}
+	.commercial-include {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.commercial-include-servi-outin {
+		height: 60px;
+		padding-top: 10px
+	}
+	.commercial-include-servi-outin a {
+		font-size: 20px
+	}
+	.whychoose-section-hole-auto h4 {
+		font-size: 50px;
+		line-height: 55px;
+		text-align: center
+	}
+	.whychoose-section-hole-auto .whychoose-auto-content {
+		float: left;
+		width: 73%
+	}
+	.whychoose-section-hole-auto:before {
+		height: 500px
+	}
+	.residentail-locksmith {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.commercial-secti-image {
+		float: right;
+		width: 300px;
+		margin-right: 15px;
+		margin-left: 15px
+	}
+	.commercial-secti-image-inner img {
+		height: 300px
+	}
+	.commercial-cap {
+		right: 0
+	}
+	.constectur-image-inner img {
+		height: 250px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.aboutus-tempor-imageinner img {
+		height: 350px
+	}
+	.service-about-sec-hole h4 {
+		font-size: 42px;
+		line-height: 42px
+	}
+	.whychoose-sect-abt {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.whychoose-sect-abt-hole h4 {
+		font-size: 50px;
+		line-height: 55px;
+		margin-bottom: 0
+	}
+	.service-about-single-inner h5 {
+		font-size: 32px
+	}
+	.auto-section-image {
+		width: 300px;
+		margin-right: 25px;
+		float: left
+	}
+	.auto-section-image-inner img {
+		height: 300px
+	}
+	.auto-section-image-inner {
+		width: auto;
+		height: auto
+	}
+	.auto-section-first:before {
+		height: 250px;
+		width: 300px
+	}
+	.auto-section-hole h4 {
+		font-size: 32px;
+		line-height: 46px
+	}
+	.cupidat-sec-content {
+		padding: 2em 2em;
+		width: 100%
+	}
+	.cupidat-sec-hole {
+		height: 400px
+	}
+	.locksmith-service-image-inner {
+		max-width: 80%;
+		margin: 0 auto
+	}
+	.locksmith-service-image {
+		float: left;
+		width: 100%
+	}
+	.locksmith-service-image-inner img {
+		height: 400px
+	}
+	.locksmith-service-content {
+		padding: 1em 1em;
+		float: right;
+		width: 100%
+	}
+	.leading-locksmith-content {
+		padding-left: 15px;
+		padding-right: 20px;
+		padding-top: 20px
+	}
+	.leading-locksmith-sec-inner {
+		clip-path: unset
+	}
+	.leading-locksmith-sec {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.leading-locksmith-sec:before {
+		content: unset
+	}
+	.service-area-location {
+		padding: 80px 15px 0 15px
+	}
+	.service-area-location ul li a {
+		font-size: 22px
+	}
+	.why-we-use-image-inner img {
+		height: 370px
+	}
+	.service-detail-image-inner img {
+		height: 300px
+	}
+	.service-detail-hole h4 {
+		font-size: 26px;
+		line-height: 32px
+	}
+	.sidebar-service-detail {
+		float: right;
+		width: 50%;
+		margin-left: 25px
+	}
+	.service-detail-hole p {
+		font-size: 16px;
+		line-height: 32px
+	}
+	.service-detail-hole h5 {
+		font-size: 26px;
+		line-height: 36px
+	}
+	.close {
+		display: none;
+		opacity: 0
+	}
+}
+
+@media only screen and (max-width:767px) {
+    .btitle{display:none;}
+	.header-locksmith-cov {
+		padding-bottom: 0;
+		float: left;
+		width: 100%
+	}
+	.header-locksmith-hole {
+		float: left;
+		width: 100%
+	}
+	.header-locksmith-logo {
+		float: left;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 1em
+	}
+	.header-lock-call-section {
+		float: left;
+		width: 100%
+	}
+	.header-call-locksmith {
+		float: left;
+		width: 50%
+	}
+	.header-emergeny-locksmith {
+		float: left;
+		width: 50%
+	}
+	.mobile-header button.navbar-toggle {
+		top: -9.5em
+	}
+	.header-call-locksmith a p {
+		font-size: 20px
+	}
+	.header-call-locksmith a span img {
+		width: 45px
+	}
+	.header-emergeny-locksmith span img {
+		width: 45px
+	}
+	.header-emergeny-locksmith-inner h5 {
+		font-size: 15px;
+		line-height: 32px
+	}
+	.header-emergeny-locksmith-inner h6 {
+		font-size: 13px;
+		line-height: 24px
+	}
+	.banner-locksmith-image img {
+		height: 300px
+	}
+	.banner-locksmith-content {
+		width: 100%;
+		position: relative;
+		-webkit-clip-path: unset;
+		clip-path: unset;
+		padding-top: 10px
+	}
+	.banner-locksmith-content-inner {
+		padding: 20px 15px 20px 15px;
+		-webkit-clip-path: unset;
+		clip-path: unset
+	}
+	.banner-locksmith-content-inner h4 {
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 20px
+	}
+	.banner-locksmith-content-inner h1 {
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 20px
+	}
+	.banner-locksmith-content-inner h2 {
+		font-size: 36px;
+		line-height: 36px;
+		margin-bottom: 20px
+	}
+	.about-locksmith-image {
+		margin-bottom: 4em
+	}
+	.service-locksmith-hme-single-inner {
+		text-align: center
+	}
+	.service-locksmith-hole h4 {
+		font-size: 36px;
+		line-height: 42px
+	}
+	.service-locksmith-hole {
+		padding: 1em 0 1em 0
+	}
+	.voluptatem-image {
+		width: 350px;
+		text-align: center;
+		margin: 0 auto
+	}
+	.whychoose-section-hole h4 {
+		font-size: 36px;
+		line-height: 36px
+	}
+	.whychoose-sec-content-hole {
+		width: 100%;
+		float: left
+	}
+	.whychoose-sec-hole-mark {
+		float: left;
+		width: 100%
+	}
+	.whychoose-sec-content {
+		width: 280px;
+		padding: 20px 45px 25px 50px
+	}
+	.footer-bottom-locksmith {
+		float: left;
+		width: 100%
+	}
+	.footer-iboost-lock {
+		margin: 0 auto;
+		float: left;
+		width: 100%
+	}
+	.footer-locksmith-content {
+		float: left;
+		width: 100%
+	}
+	.footer-links {
+		float: left;
+		width: 50%;
+		margin-bottom: 1em
+	}
+	.footer-call-section {
+		float: left;
+		width: 100%;
+		margin-bottom: 1em
+	}
+	.footer-call-locksmith {
+		margin-bottom: 1em;
+		float: left;
+		width: 100%
+	}
+	.footer-call-locksmith {
+		margin-bottom: 1em;
+		float: left;
+		width: 100%
+	}
+	.blogs-section-single-inner {
+		margin: 0 40px
+	}
+	.blogs-section-single:before {
+		width: 380px
+	}
+	.blogs-section-single:after {
+		width: 370px
+	}
+	.blog-banner-inner-image img {
+		height: 270px;
+		object-position: center
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner {
+		padding: 20px 0 20px 15px
+	}
+	.blog-detail-sec {
+		display: flex;
+		flex-direction: column
+	}
+	.blog-detail-sidebar {
+		width: 100%;
+		order: 2;
+		float: left;
+		margin-left: 0
+	}
+	.blog-detail-sidebar-inner {
+		max-width: 80%;
+		margin: 0 auto;
+		float: none
+	}
+	.blog-detail-hole {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.blog-detail-image {
+		width: 100%;
+		float: left
+	}
+	.blog-detail-image-inner img {
+		height: 50vw
+	}
+	.blog-detail.pagination {
+		text-align: center;
+		float: left;
+		width: 100%
+	}
+	.blog-detail-side.services ul li a p {
+		font-size: 24px
+	}
+	.contact-section-fast-form-main {
+		padding: 2em 2em 2em 2em
+	}
+	.contact-content-fast {
+		margin: 2em 0;
+		float: left
+	}
+	.form-group.zip-code {
+		float: left;
+		width: 100%
+	}
+	.form-group.subject {
+		float: left;
+		width: 100%
+	}
+	.text-address {
+		float: left;
+		width: 100%
+	}
+	.but-snd {
+		float: left;
+		width: 100%
+	}
+	.call-icon-section-austin span img {
+		width: 45px
+	}
+	.call-icon-section-austin p {
+		font-size: 28px
+	}
+	.contact-call-austin a p {
+		font-size: 26px
+	}
+	.contact-call-austin {
+		bottom: 0;
+		width: 55%;
+		height: 300px
+	}
+	.residential-locksmith-hole p {
+		padding-top: 1em
+	}
+	.residential-locksmith-hole p {
+		font-size: 16px;
+		line-height: 28px
+	}
+	.callresidentail {
+		width: 100%
+	}
+	.callresidentail-image {
+		width: 90px
+	}
+	.call-residential-content p {
+		font-size: 20px
+	}
+	.call-residential-content a {
+		font-size: 24px;
+		width: 260px;
+		line-height: 36px
+	}
+	.natus-error:before {
+		content: unset
+	}
+	.natus-error-image {
+		width: 50%
+	}
+	.natus-error-image-inner img {
+		height: 250px
+	}
+	.natus-error-image-inner {
+		padding-bottom: 10px;
+		padding-right: 10px
+	}
+	.natus-error-hole h4 {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.natus-error {
+		margin-bottom: 0
+	}
+	.natus-error-image {
+		margin-left: 20px
+	}
+	.commercial-include-hole h4 {
+		font-size: 28px;
+		line-height: 28px;
+		margin-bottom: 1em
+	}
+	.commercial-include-servi-inner {
+		margin-bottom: 1em;
+		float: left;
+		width: 100%
+	}
+	.whychoose-section-hole-auto h4 {
+		font-size: 42px;
+		line-height: 42px
+	}
+	.whychoose-section-hole-auto {
+		float: left;
+		width: 100%
+	}
+	.whychoose-section-hole-auto .whychoose-auto-content {
+		float: left;
+		width: 100%
+	}
+	.whychoose-sec-hole-mark.auto:nth-child(2) {
+		margin-left: 0
+	}
+	.whychoose-sec-hole-mar.auto:nth-child(3) {
+		margin-left: 0
+	}
+	.residential-locksmith-hole {
+		padding: 15px 15px 15px 0
+	}
+	.residentail-locksmith-image-inner img {
+		height: 250px
+	}
+	.residential-locksmith-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.commercial-section-natus {
+		margin: 3em 0;
+		padding: 1em 0
+	}
+	.commercial-secti-image {
+		float: left;
+		width: 100%;
+		margin-right: 15px;
+		margin-left: 0;
+		margin-bottom: 20px
+	}
+	.commercial-section-hole h4 {
+		font-size: 26px;
+		line-height: 42px
+	}
+	.commercial-section-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.constectur-section:before {
+		clip-path: unset
+	}
+	.constectur-section:after {
+		clip-path: unset
+	}
+	.constectur-image {
+		margin-right: 0;
+		float: left;
+		width: 100%;
+		margin-bottom: 20px
+	}
+	.constectur-image-inner img {
+		height: 250px;
+		width: 100%
+	}
+	.constectur-section-hole {
+		padding: 0 0 3em 0
+	}
+	.aboutus-section-tempor {
+		float: left;
+		width: 100%;
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.aboutus-tempor-image {
+		width: 60%
+	}
+	.aboutus-tempor-imageinner img {
+		eight: 300px
+	}
+	.aboutus-tempor-imageinner:before {
+		top: 15px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.service-about-sec-hole h4 {
+		font-size: 36px;
+		line-height: 36px
+	}
+	.service-about-single {
+		margin-bottom: 2em
+	}
+	.service-about-single-inner h5 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.whychoose-sect-abt-hole h4 {
+		font-size: 42px;
+		line-height: 45px
+	}
+	.whychoose-sect-abt:before {
+		height: 160px
+	}
+	.auto-section-first:before {
+		content: none
+	}
+	.auto-section-image-inner img {
+		height: 250px;
+		margin-top: 0
+	}
+	.auto-section-image {
+		width: 250px
+	}
+	.auto-section-hole h4 {
+		font-size: 28px;
+		line-height: 36px
+	}
+	.auto-section-hole p {
+		font-size: 16px;
+		line-height: 28px
+	}
+	.cupidat-sec-hole {
+		height: auto;
+		padding-bottom: 2em;
+		display: none
+	}
+	.leading-locksmith-sec-inner {
+		height: auto
+	}
+	.leading-locksmith-content {
+		padding-bottom: 15px
+	}
+	.leading-locksmith-image-inner img {
+		height: 400px;
+		width: 100%
+	}
+	.leading-locksmith-content h4 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.leading-locksmith-content ul li p {
+		font-size: 16px;
+		line-height: 26px
+	}
+	.leading-locksmith-content ul li {
+		position: relative
+	}
+	.leading-locksmith-content ul li:before {
+		top: 5px;
+		width: 20px;
+		height: 20px
+	}
+	.locksmith-service {
+		margin: 1em 0
+	}
+	.locksmith-service-image-inner img {
+		height: 280px
+	}
+	.locksmith-service-content {
+		padding: 1em 0
+	}
+	.service-area-location {
+		padding: 20px 15px 0 15px;
+		position: relative
+	}
+	.service-areas-sec-hole .gmap_canvas {
+		height: 500px
+	}
+	.service-areas-sec-hole .mapouter {
+		height: 500px
+	}
+	.service-area-location ul li {
+		float: left;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		text-align: center
+	}
+	.service-area-location ul li:nth-child(even) {
+		text-align: center
+	}
+	.service-area-location ul {
+		height: 500px;
+		overflow-y: scroll
+	}
+	.why-we-use-image-inner img {
+		height: 300px
+	}
+	.why-we-use-image {
+		width: 75%
+	}
+	.why-we-use-hole p {
+		line-height: 28px
+	}
+	.why-we-use-image {
+		width: 75%
+	}
+	.service-detail-hole {
+		display: flex;
+		flex-direction: column
+	}
+	.sidebar-service-detail {
+		order: 2;
+		width: 100%;
+		float: left;
+		margin-left: 0
+	}
+	.service-detail-hole ul {
+		width: 100%
+	}
+	.right_block {
+		width: 100%;
+		position: relative;
+		z-index: -1
+	}
+	.right_block:after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff6b;
+		position: absolute;
+		z-index: -1
+	}
+	.g-recaptcha {
+		float: left;
+		width: 100%;
+		margin-bottom: 20px
+	}
+	.but-snd {
+		text-align: center
+	}
+	.service-detail-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.contact-section-fast-form-inner {
+		max-width: 100%
+	}
+	.blog-date {
+		width: 100%
+	}
+	.blog-banner-hole.blog-detail .blog-banner-inner-image img {
+		height: 135px
+	}
+	.blog-banner-hole {
+		margin-top: 0
+	}
+	.banner-blog {
+		margin-top: 0
+	}
+	.blog-banner-hole {
+		margin-top: -1em
+	}
+	.service-detail-image {
+	    float: left;
+	    margin-right: 20px;
+	    margin-bottom: 1em;
+	    width: 50%;
+	}
+	.service-detail-image-inner img {
+	   height: 200px;
+	}
+
+}
+
+@media only screen and (max-width:480px) {
+	.tempor-locksmith-hole h2 {
+		padding-left: 15px
+	}
+	.header-call-locksmith a span {
+		margin-right: 0;
+		margin-bottom: 10px;
+		display: block
+	}
+	.header-call-locksmith a span img {
+		width: 40px
+	}
+	.header-call-locksmith a p {
+		font-size: 18px
+	}
+	.header-call-locksmith a span {
+		margin-right: 0;
+		margin-bottom: 10px
+	}
+	.header-emergeny-locksmith span {
+		margin-right: 0;
+		margin-bottom: 0;
+		display: block
+	}
+	.header-emergeny-locksmith span img {
+		width: 45px
+	}
+	.header-emergeny-locksmith-inner h5 {
+		font-size: 14px;
+		line-height: 28px
+	}
+	.header-emergeny-locksmith-inner h6 {
+		font-size: 13px;
+		line-height: 18px
+	}
+	.mobile-header button.navbar-toggle {
+		right: 5px
+	}
+	.mob_navi {
+		width: 100%;
+		transform: translate(0, -100%)
+	}
+	#mob_menu {
+		background-color: #ffff
+	}
+	#mob_menu li a {
+		color: #941305;
+		font-size: 18px
+	}
+	.mob_sub_link span {
+		color: #941305
+	}
+	.mob_sub_menu {
+		background-color: #ffff
+	}
+	#mob_menu li {
+		border-bottom: 1px solid #747d9091
+	}
+	.banner-locksmith-image img {
+		height: 280px
+	}
+	.banner-locksmith-content-inner {
+		padding: 15px 15px 15px 15px;
+		background-color: #747d90
+	}
+	.banner-locksmith-content-inner h4 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 20px
+	}
+	.banner-locksmith-content-inner h1 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		color: #fff
+	}
+	.banner-locksmith-content-inner h2 {
+		font-size: 32px;
+		line-height: 36px;
+		margin-bottom: 20px;
+		color: #fff
+	}
+	.banner-locksmith-content-inner p {
+		font-size: 16px;
+		line-height: 28px;
+		color: #fff
+	}
+	.about-locksmith-image {
+		margin-bottom: 4em;
+		margin-top: 1em;
+		margin-right: 0
+	}
+	.about-locksmith-image-outer {
+		width: 250px;
+		margin-bottom: 1em
+	}
+	.abt-call-now {
+		width: 100%;
+		right: auto;
+		height: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		padding: 5px 0;
+		border-radius: 50px;
+		max-width: 80%;
+		margin-bottom: 1em;
+		position: unset;
+		transform: rotate(0);
+		clip-path: unset
+	}
+	.abt-call-now p {
+		font-size: 21px;
+		line-height: 42px;
+		margin: 0
+	}
+	.abt-emergency {
+		width: 100%;
+		height: auto;
+		left: 0;
+		bottom: -4px;
+		right: 0;
+		margin: 0 auto;
+		max-width: 80%;
+		padding: 9px 0;
+		border-radius: 50px;
+		transform: rotate(0);
+		position: unset;
+		clip-path: unset
+	}
+	.abt-emergency img {
+		width: 45px
+	}
+	.about-locksmith-image {
+		margin-bottom: 2em
+	}
+	.about-locksmith-hole h1 {
+		font-size: 36px;
+		line-height: 42px;
+		text-align: center;
+		margin-bottom: 20px
+	}
+	.about-locksmith-hole h2 {
+		font-size: 24px;
+		line-height: 26px;
+		margin-bottom: 20px
+	}
+	.about-locksmith-hole a p {
+		font-size: 18px;
+		line-height: 40px;
+		padding: 5px 0
+	}
+	.about-locksmith-hole a span {
+		height: 50px;
+		padding-top: 18px
+	}
+	.service-locksmith-hme-single-inner img {
+		height: 135px;
+		width: 135px
+	}
+	.service-locksmith-hme-single h5 {
+		font-size: 26px;
+		line-height: 30px
+	}
+	.voluptatem-image {
+		width: 250px
+	}
+	.voluptatem-image-inner img {
+		height: 250px
+	}
+	.voluptatem-hole h2 {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.voluptatem-hole p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.whychoose-sec-content p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.tempor-locksmith-hole p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.service-detail-hole p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.about-locksmith-hole p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.service-locksmith-hole h4 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.whychoose-section-hole h4 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.whychoose-sec-name {
+		margin: 0 auto
+	}
+	.whychoose-sec-content {
+		width: 100%;
+		padding: 15px 15px 15px 15px;
+		margin-left: 0;
+		margin-top: 1em;
+		clip-path: unset
+	}
+	.whychoose-sec-content-hole {
+		padding-right: 15px
+	}
+	.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+		margin-right: 0;
+		clip-path: unset
+	}
+	.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-name {
+		background-size: 100% 100%
+	}
+	.whychoose-sec-image {
+		width: 95%
+	}
+	.whychoose-sec-image-inner img {
+		height: 70vw
+	}
+	.tempor-locksmith-image-inner img {
+		height: 250px
+	}
+	.tempor-locksmith-image-outer {
+		padding-right: 20px
+	}
+	.tempor-locksmith-image {
+		float: left;
+		width: 100%;
+		margin-right: 0;
+		padding-right: 20px;
+		margin-bottom: 20px
+	}
+	.call-tempor-content-out {
+		width: 95%;
+		float: left;
+		-webkit-clip-path: unset;
+		clip-path: unset
+	}
+	.call-tempor {
+		width: 100%;
+		float: left;
+		padding: 1em 0;
+		-webkit-clip-path: unset;
+		clip-path: unset
+	}
+	.call-tempor span {
+		width: 55px;
+		height: 55px;
+		font-size: 30px;
+		padding-top: 5px;
+		margin-top: 5px
+	}
+	.customer-hmereviews-hole-inner h4 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.customer-hmereview-megan-single-inner {
+		margin: 0 5px;
+		padding: 4em 2em 8em 2em;
+		height: auto
+	}
+	.reviews-section-own .customer-hmereview-megan-single-inner p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.customer-hmereview-megan-single-inner p {
+		font-size: 14px;
+		line-height: 24px
+	}
+	.star-rating.review-customer {
+		float: left;
+		width: 100%;
+		text-align: center
+	}
+	.blogs-section-hole h4 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.blogs-section-single:before {
+		content: none
+	}
+	.blogs-section-single:after {
+		content: none
+	}
+	.blogs-section-single-image {
+		text-align: center
+	}
+	.blogs-section-single-image img {
+		height: 290px;
+		width: 290px
+	}
+	.blog-hme-title {
+		height: 120px
+	}
+	.blog-hme-title h5 {
+		font-size: 16px;
+		line-height: 26px
+	}
+	.blogs-section-single-inner {
+		margin: 0 0
+	}
+	.blogs-section-hole-inner .slick-list.draggable {
+		padding: 1em 0 0 0
+	}
+	.banner-blog {
+		margin-top: 0
+	}
+	.blog-banner-inner-image img {
+		height: 200px
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner {
+		padding: 20px 0 20px 15px
+	}
+	.blog-section-own {
+		margin: 1em 0;
+		padding: 1em 0
+	}
+	.blog-detail-sec p {
+		font-size: 18px;
+		line-height: 32px
+	}
+	.blog-detail-sec h4, .btitle {
+		font-size: 34px;
+		line-height: 46px
+	}
+	.blog-detail-sidebar-inner {
+		max-width: 100%
+	}
+	.blog-detail-side.recent ul li a span {
+		width: 100px
+	}
+	.blog-detail-side.recent ul li a p {
+		font-size: 16px;
+		line-height: 26px
+	}
+	.blog-detail-side h6 {
+		font-size: 26px
+	}
+	.contact-section-fast-form-main p {
+		font-size: 16px;
+		line-height: 30px;
+		margin-bottom: 5px
+	}
+	.contact-section-fast-form-main {
+		padding: 1em 1em 1em 1em;
+		float: left;
+		width: 100%
+	}
+	.contact-section-fast-form {
+		float: left;
+		width: 100%
+	}
+	.form-group.email,
+	.form-group.name {
+		float: left;
+		width: 100%
+	}
+	.form-group.lastname,
+	.form-group.phone-text {
+		float: left;
+		width: 100%
+	}
+	.form-control {
+		height: 45px
+	}
+	.contact-content-fast p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.contact-section-fast-title h4 {
+		font-size: 26px;
+		line-height: 28px
+	}
+	button.send-btn {
+		width: 200px
+	}
+	.call-icon-section-austin {
+		padding-top: 3em;
+		margin-bottom: 2em
+	}
+	.contact-call-austin {
+		height: 200px
+	}
+	.contact-call-austin {
+		position: relative;
+		width: 100%;
+		-webkit-clip-path: unset;
+		clip-path: unset
+	}
+	.callresidentail-image {
+		width: 70px
+	}
+	.call-residential-content {
+		vertical-align: middle;
+		width: 65%;
+		float: right
+	}
+	.call-residential-content a {
+		font-size: 20px;
+		width: 185px;
+		line-height: 32px
+	}
+	.callresidentail-image {
+		width: 70px
+	}
+	.natus-error-image {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px
+	}
+	.residentail-locksmith-image {
+		margin-right: 0;
+		padding-left: 15px;
+		padding-top: 15px;
+		margin-bottom: 15px;
+		width: 100%
+	}
+	.callresidentail-image {
+		padding-top: 30px
+	}
+	.natus-error-image {
+		margin-left: 0
+	}
+	.whychoose-section-hole-auto {
+		padding-right: 15px
+	}
+	.whychoose-sec-hole-mark.auto:nth-child(2) .whychoose-sec-name {
+		margin-left: 0
+	}
+	.whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content {
+		margin-left: 0
+	}
+.whychoose-sec-content-hole .whychoose-sec-hole-mark:nth-child(2) .whychoose-sec-content{
+	left:0;
+}
+	.whychoose-section-hole-auto h4 {
+		font-size: 36px;
+		line-height: 36px
+	}
+	.call-tempor-content-out {
+		margin-left: 0
+	}
+	.commercial-secti-image-inner img {
+		height: 250px
+	}
+	.commercial-section-natus {
+		margin: 2em 0
+	}
+	.constectur-image-inner img {
+		height: 230px
+	}
+	.constectur-section-hole p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.aboutus-tempor-image {
+		width: 100%;
+		float: left
+	}
+	.aboutus-tempor-imageinner img {
+		height: 300px
+	}
+	.aboutus-section-tempor-hole {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.about-locksmith-hole h1 {
+		font-size: 32px;
+		line-height: 36px
+	}
+	.auto-section-image {
+		width: 250px;
+		margin: 0 auto;
+		float: none
+	}
+	.cupidat-sec-content-inner h4 {
+		font-size: 24px
+	}
+	.cupidat-sec-content {
+		padding: 2em 1em
+	}
+	.locksmith-service-image-inner {
+		max-width: 100%
+	}
+	.locksmith-service-image-inner img {
+		height: 250px
+	}
+	.leading-locksmith-content ul li p {
+		font-size: 16px;
+		padding-left: 35px
+	}
+	.leading-locksmith-image-inner img {
+		height: 250px
+	}
+	.service-area-location ul {
+		height: 400px
+	}
+	.why-we-use-image {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		margin-bottom: 20px
+	}
+	.why-we-use-hole {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.service-detail-image-inner img {
+	    height: 200px;
+	}
+	.service-detail-image {
+		margin-right: 15px;
+		float: left;
+		width: 100%;
+    	order: 2;
+	}
+	.first-para-serv-det {
+	    order: 1;
+	}	
+	.second-para-serv-det {
+	    order: 3;
+	}
+	.service-detail-hole h5 {
+		font-size: 24px
+	}
+	.service-detail-hole ul li p {
+		padding-left: 45px
+	}
+	.service-detail-hole ul li:before {
+		width: 30px;
+		height: 30px
+	}
+	.service-detail-hole ul li p {
+		padding-left: 45px;
+		line-height: 24px
+	}
+	.service-side.own h6 {
+		font-size: 28px;
+		line-height: 45px
+	}
+	.review-side.own h6 {
+		font-size: 28px;
+		line-height: 45px
+	}
+	.service-side.own span {
+		font-size: 18px;
+		margin-bottom: 10px
+	}
+	.service-detail-hole h1 {
+		font-size: 38px;
+		line-height: 48px
+	}
+	.right_block {
+		display: none
+	}
+	.commercial-secti-image {
+		margin-right: 0
+	}
+	.locksmith-service-content p {
+		font-size: 16px;
+		line-height: 30px
+	}
+	.contact-call-austin:before {
+		left: 0;
+		right: 0
+	}
+	.call-icon-section-austin {
+		padding-left: 0
+	}
+	.contact-call-austin {
+		text-align: center
+	}
+	.mob_navi {
+		position: absolute;
+		height: 800px
+	}
+	.banner-locksmith-content {
+		-webkit-clip-path: url(#mobile_wave);
+		clip-path: url(#mobile_wave);
+		position: relative;
+		margin-top: -3em;
+		padding-bottom: 12px
+	}
+	.banner-locksmith-content-inner {
+		-webkit-clip-path: url(#mobile_wave2);
+		clip-path: url(#mobile_wave2);
+		padding-bottom: 40px
+	}
+	.whychoose-sect-abt:before {
+		display: none
+	}
+	.desktop-view-service {
+		display: block;
+		display: flex;
+       flex-direction: column;
+	}
+	.mobile-view-service {
+		display: block!important
+	}
+	.desktopview-blogdetial {
+		display: none
+	}
+	.mobileview-blogdetial {
+		display: block!important
+	}
+	.footer-locksmith-hole .container {
+		padding: 0
+	}
+	.footer-locksmith-content {
+		padding: 0 15px
+	}
+	.footer-iboost-lock {
+		margin: 0 auto;
+		float: left;
+		width: 100%
+	}
+	.footer-locksmith-hole {
+		padding-bottom: 0
+	}
+	.commercial-include-servi-outin a {
+		font-size: 18px
+	}
+	.commercial-include-servi-outin {
+		max-width: 95%
+	}
+	.abt-call-now {
+		display: none
+	}
+	.abt-call-now.mb_call.hide {
+		display: block!important;
+		width: 100%;
+		overflow: hidden
+	}
+	a.mb_call {
+		background: 0 0;
+		width: 100%
+	}
+	.abt-call-now.mb_call.hide p {
+		background: 0 0;
+		width: 100%;
+		font-size: 20px;
+		padding: 0;
+		line-height: 47px
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner {
+		padding: 0;
+		clip-path: ellipse(100% 55% at 48% 44%)
+	}
+	.banner-locksmith-content.inner-cont .banner-locksmith-content-inner h1 {
+		margin: 0;
+		padding: 10px;
+		padding-bottom: 23px
+	}
+	.banner-locksmith-content.inner-cont {
+		background: 0 0
+	}
+	#mob_menu li a {
+		color: #747d90
+	}
+	#mob_menu li a:hover {
+		color: #941305
+	}
+	.mobile_single .service-locksmith-hme-single {
+		width: 50%!important;
+		float: left;
+		margin-bottom: 20px
+	}
+	.service-detail-hole ul li {
+		padding-left: 2em;
+		font-size: 18px;
+		line-height: 30px
+	}
+	span.g-image {
+		right: 3em
+	}
+}
+
+@keyframes flickerAnimation {
+	0% {
+		opacity: 1
+	}
+	50% {
+		opacity: 0
+	}
+	100% {
+		opacity: 1
+	}
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0)
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg)
+	}
+	20% {
+		transform: translate(-3px, 0) rotate(1deg)
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0)
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg)
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg)
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0)
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg)
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg)
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0)
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg)
+	}
+}
+
+@keyframes lds-dual-ring {
+	0% {
+		transform: rotate(0)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes rotateme {
+	0% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg)
+	}
+	100% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+}
+
+/* New Page Styles */
+.map-container {
+	margin: 20px 0;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+	width: 100%;
+	height: 400px;
+	border: none;
+}
+
+.address-info {
+	background: #f8f9fa;
+	padding: 20px;
+	border-radius: 8px;
+	margin: 20px 0;
+	border-left: 4px solid #007bff;
+}
+
+.address-info p {
+	margin: 8px 0;
+	font-size: 16px;
+	color: #333;
+}
+
+.address-info strong {
+	color: #007bff;
+	font-weight: 600;
+}
+
+.faq-item {
+	margin: 25px 0;
+	padding: 20px;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	border-left: 4px solid #007bff;
+}
+
+.faq-item h4 {
+	color: #007bff;
+	margin: 0 0 15px 0;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.faq-item p {
+	margin: 0;
+	color: #555;
+	line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	.map-container iframe {
+		height: 300px;
+	}
+	
+	.address-info {
+		padding: 15px;
+	}
+	
+	.faq-item {
+		padding: 15px;
+	}
+	
+	.faq-item h4 {
+		font-size: 16px;
+	}
+}
+
+/* Floating Call Button */
+.floating-call-button {
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 60px;
+	height: 60px;
+	background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+	cursor: pointer;
+	z-index: 999;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	border: none;
+}
+
+.floating-call-button:hover {
+	background: linear-gradient(135deg, #0056b3 0%, #003d82 100%);
+	box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
+	transform: scale(1.1);
+}
+
+.floating-call-button i {
+	color: white;
+	font-size: 24px;
+	pointer-events: none;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+	.floating-call-button {
+		bottom: 20px;
+		right: 20px;
+		width: 55px;
+		height: 55px;
+	}
+	
+	.floating-call-button i {
+		font-size: 22px;
+	}
+}

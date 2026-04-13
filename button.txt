@@ -1,0 +1,4 @@
+<!-- Floating Call Button -->
+<a href="tel:512-580-8724" class="floating-call-button" title="Call Fast Austin Locksmith">
+<i class="fa fa-phone" aria-hidden="true"></i>
+</a>
