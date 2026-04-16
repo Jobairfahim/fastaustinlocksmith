@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fastaustinlocksmiths.com/sitemap.xml
+
+# Block common non-content files
+Disallow: /assets/
+Disallow: /images/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /*?* 
+
+# Allow search engines to crawl important content
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /images/
+
+# Crawl delay (optional, be respectful)
+Crawl-delay: 1
