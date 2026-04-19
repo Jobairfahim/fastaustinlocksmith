@@ -17,9 +17,68 @@
 	<link rel="stylesheet" href="" />
     <link rel="stylesheet" href="" />--> 
 	<link rel="stylesheet" href="assets/css/frontend/style.css" /> 
+	
+	<style>
+	/* Floating Call Button */
+	.floating-call-button {
+		position: fixed !important;
+		bottom: 30px !important;
+		right: 30px !important;
+		width: 60px !important;
+		height: 60px !important;
+		background: linear-gradient(135deg, #007bff 0%, #0056b3 100%) !important;
+		border-radius: 50% !important;
+		display: flex !important;
+		align-items: center !important;
+		justify-content: center !important;
+		text-decoration: none !important;
+		box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4) !important;
+		z-index: 99999 !important;
+		transition: all 0.3s ease !important;
+		border: none !important;
+		visibility: visible !important;
+		opacity: 1 !important;
+		left: auto !important;
+		top: auto !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		transform: none !important;
+	}
+
+	.floating-call-button:hover {
+		background: linear-gradient(135deg, #0056b3 0%, #003d82 100%);
+		box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
+		transform: scale(1.1);
+	}
+
+	.floating-call-button i {
+		color: white;
+		font-size: 24px;
+		pointer-events: none;
+	}
+
+	/* Mobile responsive */
+	@media (max-width: 768px) {
+		.floating-call-button {
+			bottom: 20px !important;
+			right: 20px !important;
+			width: 55px !important;
+			height: 55px !important;
+		}
+		
+		.floating-call-button i {
+			font-size: 22px !important;
+		}
+	}
+	</style>
 </head>
 
 <body>
+<!-- Floating Call Button -->
+<a href="tel:512-580-8724" class="floating-call-button" title="Call Fast Austin Locksmith">
+	<i class="fa fa-phone" aria-hidden="true"></i>
+</a>
+
     <header>
 			       
 		<div class="mobile-top-head">
@@ -457,11 +516,6 @@
 
   gtag('config', 'G-TJXF0LS6BC');
 </script>
-<!-- Floating Call Button -->
-<a href="tel:512-969-6225" class="floating-call-button" title="Call Fast Austin Locksmith">
-	<i class="fa fa-phone" aria-hidden="true"></i>
-</a>
-
 </body>
 </html>
 </html>
